@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C79535E2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */; };
+		7C79535F2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */; };
+		7C7953602B304BD1000F25E9 /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */; };
+		7C7953612B304BD1000F25E9 /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */; };
+		7C7953622B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */; };
+		7C7953632B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */; };
+		7C7953642B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535D2B304BD1000F25E9 /* TaskDetailsCenterView.swift */; };
+		7C7953652B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535D2B304BD1000F25E9 /* TaskDetailsCenterView.swift */; };
+		7C79536B2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953672B304C34000F25E9 /* HeaderViewCredit.swift */; };
+		7C79536C2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953672B304C34000F25E9 /* HeaderViewCredit.swift */; };
+		7C79536D2B304C34000F25E9 /* FooterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953682B304C34000F25E9 /* FooterViewCredits.swift */; };
+		7C79536E2B304C34000F25E9 /* FooterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953682B304C34000F25E9 /* FooterViewCredits.swift */; };
+		7C79536F2B304C34000F25E9 /* CenterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953692B304C34000F25E9 /* CenterViewCredits.swift */; };
+		7C7953702B304C34000F25E9 /* CenterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953692B304C34000F25E9 /* CenterViewCredits.swift */; };
+		7C7953712B304C34000F25E9 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79536A2B304C34000F25E9 /* CreditsView.swift */; };
+		7C7953722B304C34000F25E9 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79536A2B304C34000F25E9 /* CreditsView.swift */; };
+		7C7953812B307BB9000F25E9 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */; };
+		7C7953822B307BB9000F25E9 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */; };
+		7CB4E75F2B2C1D7700E49AF4 /* NotepadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */; };
+		7CB4E7632B2C1D7900E49AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */; };
+		7CB4E7662B2C1D7900E49AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7652B2C1D7900E49AF4 /* Preview Assets.xcassets */; };
+		7CB4E76C2B2C1D7900E49AF4 /* Notepad Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CB4E7712B2C1D7900E49AF4 /* NotepadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7702B2C1D7900E49AF4 /* NotepadApp.swift */; };
+		7CB4E7752B2C1D7A00E49AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7742B2C1D7A00E49AF4 /* Assets.xcassets */; };
+		7CB4E7782B2C1D7A00E49AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7772B2C1D7A00E49AF4 /* Preview Assets.xcassets */; };
+		7CB4E78B2B2C207100E49AF4 /* NoteModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */; };
+		7CB4E78C2B2C207100E49AF4 /* NoteModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */; };
+		7CB4E78F2B2C20A800E49AF4 /* GEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */; };
+		7CB4E7902B2C20A800E49AF4 /* GEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */; };
+		7CB4E7932B2C215200E49AF4 /* NoDataFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7922B2C215200E49AF4 /* NoDataFoundView.swift */; };
+		7CB4E7942B2C215200E49AF4 /* NoDataFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7922B2C215200E49AF4 /* NoDataFoundView.swift */; };
+		7CB4E7992B2C239600E49AF4 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7982B2C239600E49AF4 /* Notes.swift */; };
+		7CB4E79A2B2C239600E49AF4 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7982B2C239600E49AF4 /* Notes.swift */; };
+		7CB4E79C2B2C243A00E49AF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */; };
+		7CB4E79D2B2C243A00E49AF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */; };
+		7CB4E79F2B2C24F300E49AF4 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */; };
+		7CB4E7A02B2C24F300E49AF4 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CB4E76D2B2C1D7900E49AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB4E7532B2C1D7700E49AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB4E76A2B2C1D7900E49AF4;
+			remoteInfo = "Notepad Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CB4E77E2B2C1D7A00E49AF4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7CB4E76C2B2C1D7900E49AF4 /* Notepad Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsFooterView.swift; sourceTree = "<group>"; };
+		7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
+		7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsHeaderView.swift; sourceTree = "<group>"; };
+		7C79535D2B304BD1000F25E9 /* TaskDetailsCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsCenterView.swift; sourceTree = "<group>"; };
+		7C7953672B304C34000F25E9 /* HeaderViewCredit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewCredit.swift; sourceTree = "<group>"; };
+		7C7953682B304C34000F25E9 /* FooterViewCredits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterViewCredits.swift; sourceTree = "<group>"; };
+		7C7953692B304C34000F25E9 /* CenterViewCredits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewCredits.swift; sourceTree = "<group>"; };
+		7C79536A2B304C34000F25E9 /* CreditsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		7CB4E75B2B2C1D7700E49AF4 /* Notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadApp.swift; sourceTree = "<group>"; };
+		7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CB4E7652B2C1D7900E49AF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notepad Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB4E7702B2C1D7900E49AF4 /* NotepadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadApp.swift; sourceTree = "<group>"; };
+		7CB4E7742B2C1D7A00E49AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CB4E7772B2C1D7A00E49AF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModal.swift; sourceTree = "<group>"; };
+		7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEnum.swift; sourceTree = "<group>"; };
+		7CB4E7922B2C215200E49AF4 /* NoDataFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataFoundView.swift; sourceTree = "<group>"; };
+		7CB4E7982B2C239600E49AF4 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB4E7582B2C1D7700E49AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB4E7682B2C1D7900E49AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C7953662B304BDF000F25E9 /* TaskDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7C79535D2B304BD1000F25E9 /* TaskDetailsCenterView.swift */,
+				7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */,
+				7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */,
+				7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */,
+			);
+			path = TaskDetails;
+			sourceTree = "<group>";
+		};
+		7C7953732B304C3B000F25E9 /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				7C7953692B304C34000F25E9 /* CenterViewCredits.swift */,
+				7C79536A2B304C34000F25E9 /* CreditsView.swift */,
+				7C7953682B304C34000F25E9 /* FooterViewCredits.swift */,
+				7C7953672B304C34000F25E9 /* HeaderViewCredit.swift */,
+			);
+			path = Credits;
+			sourceTree = "<group>";
+		};
+		7C7953862B308072000F25E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */,
+				7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7C7953872B308090000F25E9 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E7922B2C215200E49AF4 /* NoDataFoundView.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		7C7953882B3081BE000F25E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E7982B2C239600E49AF4 /* Notes.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7C7953892B308212000F25E9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7CB4E7522B2C1D7700E49AF4 = {
+			isa = PBXGroup;
+			children = (
+				7CB4E7822B2C1E4A00E49AF4 /* Shared */,
+				7CB4E75D2B2C1D7700E49AF4 /* Notepad */,
+				7CB4E76F2B2C1D7900E49AF4 /* Notepad Watch App */,
+				7CB4E75C2B2C1D7700E49AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CB4E75C2B2C1D7700E49AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E75B2B2C1D7700E49AF4 /* Notepad.app */,
+				7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CB4E75D2B2C1D7700E49AF4 /* Notepad */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */,
+				7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */,
+				7CB4E7642B2C1D7900E49AF4 /* Preview Content */,
+			);
+			path = Notepad;
+			sourceTree = "<group>";
+		};
+		7CB4E7642B2C1D7900E49AF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E7652B2C1D7900E49AF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CB4E76F2B2C1D7900E49AF4 /* Notepad Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E7702B2C1D7900E49AF4 /* NotepadApp.swift */,
+				7CB4E7742B2C1D7A00E49AF4 /* Assets.xcassets */,
+				7CB4E7762B2C1D7A00E49AF4 /* Preview Content */,
+			);
+			path = "Notepad Watch App";
+			sourceTree = "<group>";
+		};
+		7CB4E7762B2C1D7A00E49AF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E7772B2C1D7A00E49AF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CB4E7822B2C1E4A00E49AF4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7C7953892B308212000F25E9 /* Delegates */,
+				7C7953882B3081BE000F25E9 /* Classes */,
+				7CB4E78D2B2C209C00E49AF4 /* Utils */,
+				7CB4E7892B2C205100E49AF4 /* Modals */,
+				7CB4E7882B2C204A00E49AF4 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7CB4E7882B2C204A00E49AF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C7953732B304C3B000F25E9 /* Credits */,
+				7C7953862B308072000F25E9 /* Home */,
+				7C7953662B304BDF000F25E9 /* TaskDetails */,
+				7C7953872B308090000F25E9 /* Global */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CB4E7892B2C205100E49AF4 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		7CB4E78D2B2C209C00E49AF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E7912B2C20C900E49AF4 /* Global */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7CB4E7912B2C20C900E49AF4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CB4E75A2B2C1D7700E49AF4 /* Notepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB4E77F2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad" */;
+			buildPhases = (
+				7CB4E7572B2C1D7700E49AF4 /* Sources */,
+				7CB4E7582B2C1D7700E49AF4 /* Frameworks */,
+				7CB4E7592B2C1D7700E49AF4 /* Resources */,
+				7CB4E77E2B2C1D7A00E49AF4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB4E76E2B2C1D7900E49AF4 /* PBXTargetDependency */,
+			);
+			name = Notepad;
+			productName = Notepad;
+			productReference = 7CB4E75B2B2C1D7700E49AF4 /* Notepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CB4E76A2B2C1D7900E49AF4 /* Notepad Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB4E77B2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad Watch App" */;
+			buildPhases = (
+				7CB4E7672B2C1D7900E49AF4 /* Sources */,
+				7CB4E7682B2C1D7900E49AF4 /* Frameworks */,
+				7CB4E7692B2C1D7900E49AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notepad Watch App";
+			productName = "Notepad Watch App";
+			productReference = 7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CB4E7532B2C1D7700E49AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7CB4E75A2B2C1D7700E49AF4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7CB4E76A2B2C1D7900E49AF4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 7CB4E7562B2C1D7700E49AF4 /* Build configuration list for PBXProject "Notepad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CB4E7522B2C1D7700E49AF4;
+			productRefGroup = 7CB4E75C2B2C1D7700E49AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CB4E75A2B2C1D7700E49AF4 /* Notepad */,
+				7CB4E76A2B2C1D7900E49AF4 /* Notepad Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB4E7592B2C1D7700E49AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB4E7662B2C1D7900E49AF4 /* Preview Assets.xcassets in Resources */,
+				7CB4E7632B2C1D7900E49AF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB4E7692B2C1D7900E49AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB4E7782B2C1D7A00E49AF4 /* Preview Assets.xcassets in Resources */,
+				7CB4E7752B2C1D7A00E49AF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB4E7572B2C1D7700E49AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C79536B2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */,
+				7CB4E79C2B2C243A00E49AF4 /* HomeView.swift in Sources */,
+				7C7953642B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */,
+				7CB4E7992B2C239600E49AF4 /* Notes.swift in Sources */,
+				7CB4E7932B2C215200E49AF4 /* NoDataFoundView.swift in Sources */,
+				7C7953622B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */,
+				7C79535E2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */,
+				7CB4E78B2B2C207100E49AF4 /* NoteModal.swift in Sources */,
+				7CB4E78F2B2C20A800E49AF4 /* GEnum.swift in Sources */,
+				7C79536D2B304C34000F25E9 /* FooterViewCredits.swift in Sources */,
+				7CB4E75F2B2C1D7700E49AF4 /* NotepadApp.swift in Sources */,
+				7C7953602B304BD1000F25E9 /* TaskDetailsView.swift in Sources */,
+				7CB4E79F2B2C24F300E49AF4 /* SessionDelegate.swift in Sources */,
+				7C7953812B307BB9000F25E9 /* HomeHeaderView.swift in Sources */,
+				7C7953712B304C34000F25E9 /* CreditsView.swift in Sources */,
+				7C79536F2B304C34000F25E9 /* CenterViewCredits.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB4E7672B2C1D7900E49AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C79536C2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */,
+				7CB4E79D2B2C243A00E49AF4 /* HomeView.swift in Sources */,
+				7C7953652B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */,
+				7CB4E79A2B2C239600E49AF4 /* Notes.swift in Sources */,
+				7CB4E7942B2C215200E49AF4 /* NoDataFoundView.swift in Sources */,
+				7C7953632B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */,
+				7C79535F2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */,
+				7CB4E78C2B2C207100E49AF4 /* NoteModal.swift in Sources */,
+				7CB4E7902B2C20A800E49AF4 /* GEnum.swift in Sources */,
+				7C79536E2B304C34000F25E9 /* FooterViewCredits.swift in Sources */,
+				7CB4E7712B2C1D7900E49AF4 /* NotepadApp.swift in Sources */,
+				7C7953612B304BD1000F25E9 /* TaskDetailsView.swift in Sources */,
+				7CB4E7A02B2C24F300E49AF4 /* SessionDelegate.swift in Sources */,
+				7C7953822B307BB9000F25E9 /* HomeHeaderView.swift in Sources */,
+				7C7953722B304C34000F25E9 /* CreditsView.swift in Sources */,
+				7C7953702B304C34000F25E9 /* CenterViewCredits.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB4E76E2B2C1D7900E49AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB4E76A2B2C1D7900E49AF4 /* Notepad Watch App */;
+			targetProxy = 7CB4E76D2B2C1D7900E49AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CB4E7792B2C1D7A00E49AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CB4E77A2B2C1D7A00E49AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7CB4E77C2B2C1D7A00E49AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notepad Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.demo.Notepad;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		7CB4E77D2B2C1D7A00E49AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notepad Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.demo.Notepad;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		7CB4E7802B2C1D7A00E49AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notepad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CB4E7812B2C1D7A00E49AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notepad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CB4E7562B2C1D7700E49AF4 /* Build configuration list for PBXProject "Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB4E7792B2C1D7A00E49AF4 /* Debug */,
+				7CB4E77A2B2C1D7A00E49AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB4E77B2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB4E77C2B2C1D7A00E49AF4 /* Debug */,
+				7CB4E77D2B2C1D7A00E49AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB4E77F2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB4E7802B2C1D7A00E49AF4 /* Debug */,
+				7CB4E7812B2C1D7A00E49AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CB4E7532B2C1D7700E49AF4 /* Project object */;
+}
