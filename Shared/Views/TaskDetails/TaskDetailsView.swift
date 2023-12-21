@@ -17,11 +17,14 @@ struct TaskDetailsView: View {
     
     //MARK: VIEWS
     var body: some View {
-        VStack {
-            TaskDetailsHeaderView()
-            TaskDetailsCenterView(notes: note)
-            TaskDetailsFooterView(numberOfNotes: numberOfNotes, currentNoteIndex: currentNoteIndex)
-        }//:VSTACK
+        ZStack(alignment: .center) {
+            BackgroundImageView()
+            VStack {
+                TaskDetailsHeaderView()
+                TaskDetailsCenterView(notes: note)
+                TaskDetailsFooterView(numberOfNotes: numberOfNotes, currentNoteIndex: currentNoteIndex)
+            }//:VSTACK
+        }
     }//: body
 }
 

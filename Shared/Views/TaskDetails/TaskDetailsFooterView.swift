@@ -14,22 +14,35 @@ struct TaskDetailsFooterView: View {
     
     //MARK: Binding Variables
     @State private var isCreditView: Bool = false
+    @State private var isSettingsView: Bool = false
     
     //MARK: Main View
     var body: some View {
         HStack {
             Image(systemName: "gear")
+                .resizable()
+                .frame(width: CGFloat(35).resizeFontSize().resizeFontSize(), height: CGFloat(35).resizeFontSize().resizeFontSize())
                 .foregroundColor(.gray)
+                .onTapGesture {
+                    isSettingsView.toggle()
+                }
+                .fullScreenCover(isPresented: $isSettingsView) {
+                    SettingsView()
+                }
+            
             Spacer()
             Text("\(currentNoteIndex+1)/\(numberOfNotes)")
-                .font(.system(size: 14, weight: .medium))
+                .font(.system(size: CustomSize.size28.resizeFontSize(), weight: .semibold))
                 .foregroundColor(.gray)
             Spacer()
             Image(systemName: "info.circle")
+                .resizable()
+                .frame(width: CGFloat(35).resizeFontSize().resizeFontSize(), height: CGFloat(35).resizeFontSize().resizeFontSize())
                 .foregroundColor(.gray)
                 .onTapGesture {
                     isCreditView.toggle()
-                }.sheet(isPresented: $isCreditView) {
+                }
+                .fullScreenCover(isPresented: $isCreditView) {
                     CreditsView()
                 }
         }//: HSTACK

@@ -13,9 +13,11 @@ struct TaskDetailsCenterView: View {
         ScrollView(.vertical) {
             Text(notes.note)
                 .padding(.top, 10)
-                .font(.system(size: 16, weight: .medium ))
+                .foregroundColor(ColorConst.titleBlack)
+                .font(.system(size: CustomSize.size20, weight: .medium ))
                 .multilineTextAlignment(.center)
         }//: SCROLLVIEW
+        .padding(.vertical, CGFloat(10).makeZero())
     }
 }
 

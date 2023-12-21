@@ -14,6 +14,8 @@ struct Notepad_Watch_AppApp: App {
             NavigationView {
                 HomeView()
             }//: Navigation View
+//            .ignoresSafeArea()    
+//            .preferredColorScheme(.light)
         }
     }
 }

@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
 struct NotepadApp: App {
-    
+
     var paddingStyle: CGFloat {
         #if os(watchOS)
         return 0.0
@@ -23,6 +24,8 @@ struct NotepadApp: App {
         WindowGroup {
             NavigationView {
                 HomeView()
+//                TwitterAnimationView()
+//                ContentView()
             }//: Navigation View
         }
     }

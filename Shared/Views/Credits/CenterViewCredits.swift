@@ -11,13 +11,12 @@ struct CenterViewCredits: View {
     //MARK: Main View
     var body: some View {
         HStack(alignment: .center){
-            Capsule()
-                .frame(height: 2)
-                .foregroundColor(.accentColor)
-            Image(systemName: "note.text")
-            Capsule()
-                .frame(height: 2)
-                .foregroundColor(.accentColor)
+            SeparatorView()
+            Image(systemName: "person.crop.circle.fill")
+                .resizable()
+                .renderingMode(.template)
+                .frame(width: CGFloat(38).resizeFontSize().resizeFontSize(), height: CGFloat(38).resizeFontSize().resizeFontSize())
+            SeparatorView()
         }//: HSTACK
     }//: body
 }

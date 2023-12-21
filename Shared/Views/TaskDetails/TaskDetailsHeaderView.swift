@@ -10,13 +10,13 @@ struct TaskDetailsHeaderView: View {
     //MARK: Main View
     var body: some View {
         HStack(alignment: .center) {
-            Capsule()
-                .foregroundColor(.accentColor)
-                .frame(height: 2)
+            SeparatorView()
             Image(systemName: "note.text")
-            Capsule()
+                .resizable()
+                .renderingMode(.template)
+                .frame(width: CGFloat(38).resizeFontSize().resizeFontSize(), height: CGFloat(34).resizeFontSize().resizeFontSize())
                 .foregroundColor(.accentColor)
-                .frame(height: 2)
+            SeparatorView()
         }//: HSTACK
     }//: body
 }

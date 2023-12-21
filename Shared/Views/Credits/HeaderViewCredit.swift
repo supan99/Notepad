@@ -14,7 +14,8 @@ struct HeaderViewCredit: View {
                 .resizable()
                 .frame(width: 60, height: 60)
             Text("CREDITS")
-                .font(.system(size: 18, weight: .semibold))
+                .font(.system(size: CustomSize.size28, weight: .bold))
+                .kerning(CustomSize.size04)
                 .foregroundColor(.accentColor)
         }//:VSTACK
     }//: Body

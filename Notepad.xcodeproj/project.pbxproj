@@ -25,6 +25,44 @@
 		7C7953722B304C34000F25E9 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79536A2B304C34000F25E9 /* CreditsView.swift */; };
 		7C7953812B307BB9000F25E9 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */; };
 		7C7953822B307BB9000F25E9 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */; };
+		7CA4ADD32B32B4FF00F9E512 /* HomeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADD22B32B4FF00F9E512 /* HomeInputView.swift */; };
+		7CA4ADD42B32B4FF00F9E512 /* HomeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADD22B32B4FF00F9E512 /* HomeInputView.swift */; };
+		7CA4ADDD2B32E75600F9E512 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDC2B32E75600F9E512 /* BackgroundImageView.swift */; };
+		7CA4ADDE2B32E75600F9E512 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDC2B32E75600F9E512 /* BackgroundImageView.swift */; };
+		7CA4ADE02B32E8C100F9E512 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */; };
+		7CA4ADE12B32E8C100F9E512 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */; };
+		7CA4ADE32B32F31A00F9E512 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE22B32F31A00F9E512 /* SettingsView.swift */; };
+		7CA4ADE42B32F31A00F9E512 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE22B32F31A00F9E512 /* SettingsView.swift */; };
+		7CA4ADE82B3319B100F9E512 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE72B3319B100F9E512 /* BebasNeue.otf */; };
+		7CA4ADE92B3319B100F9E512 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE72B3319B100F9E512 /* BebasNeue.otf */; };
+		7CA6D6602B340CA100D2977E /* SettingListTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */; };
+		7CA6D6612B340CA100D2977E /* SettingListTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */; };
+		7CA6D6642B3421DC00D2977E /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6632B3421DC00D2977E /* DarkModeView.swift */; };
+		7CA6D6652B3421DC00D2977E /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6632B3421DC00D2977E /* DarkModeView.swift */; };
+		7CA6D6672B3422C300D2977E /* LineLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6662B3422C300D2977E /* LineLimitView.swift */; };
+		7CA6D6682B3422C300D2977E /* LineLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6662B3422C300D2977E /* LineLimitView.swift */; };
+		7CA6D66B2B342ECA00D2977E /* ChooseAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66A2B342ECA00D2977E /* ChooseAppearanceView.swift */; };
+		7CA6D66C2B342ECA00D2977E /* ChooseAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66A2B342ECA00D2977E /* ChooseAppearanceView.swift */; };
+		7CA6D66E2B342FB500D2977E /* DisplayTotalSceneCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66D2B342FB500D2977E /* DisplayTotalSceneCountView.swift */; };
+		7CA6D66F2B342FB500D2977E /* DisplayTotalSceneCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66D2B342FB500D2977E /* DisplayTotalSceneCountView.swift */; };
+		7CA6D6712B34308D00D2977E /* ContactUSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6702B34308D00D2977E /* ContactUSView.swift */; };
+		7CA6D6722B34308D00D2977E /* ContactUSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6702B34308D00D2977E /* ContactUSView.swift */; };
+		7CA6D6742B3430F600D2977E /* TwitterAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6732B3430F600D2977E /* TwitterAccountView.swift */; };
+		7CA6D6752B3430F600D2977E /* TwitterAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6732B3430F600D2977E /* TwitterAccountView.swift */; };
+		7CA6D6772B3432BE00D2977E /* LinkedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6762B3432BE00D2977E /* LinkedInView.swift */; };
+		7CA6D6782B3432BE00D2977E /* LinkedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6762B3432BE00D2977E /* LinkedInView.swift */; };
+		7CA6D67A2B34333300D2977E /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6792B34333300D2977E /* HelpView.swift */; };
+		7CA6D67B2B34333300D2977E /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6792B34333300D2977E /* HelpView.swift */; };
+		7CA6D67D2B34339100D2977E /* VersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67C2B34339100D2977E /* VersionView.swift */; };
+		7CA6D67E2B34339100D2977E /* VersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67C2B34339100D2977E /* VersionView.swift */; };
+		7CA6D6802B3433F600D2977E /* SettingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67F2B3433F600D2977E /* SettingHeaderView.swift */; };
+		7CA6D6812B3433F600D2977E /* SettingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67F2B3433F600D2977E /* SettingHeaderView.swift */; };
+		7CA6D6832B3437FC00D2977E /* SettingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6822B3437FC00D2977E /* SettingFooterView.swift */; };
+		7CA6D6842B3437FC00D2977E /* SettingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6822B3437FC00D2977E /* SettingFooterView.swift */; };
+		7CA6D6862B34408C00D2977E /* SelectDisplayCountSkinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6852B34408C00D2977E /* SelectDisplayCountSkinView.swift */; };
+		7CA6D6872B34408C00D2977E /* SelectDisplayCountSkinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6852B34408C00D2977E /* SelectDisplayCountSkinView.swift */; };
+		7CA6D6892B3440FB00D2977E /* SettingCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6882B3440FB00D2977E /* SettingCenterView.swift */; };
+		7CA6D68A2B3440FB00D2977E /* SettingCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6882B3440FB00D2977E /* SettingCenterView.swift */; };
 		7CB4E75F2B2C1D7700E49AF4 /* NotepadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */; };
 		7CB4E7632B2C1D7900E49AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */; };
 		7CB4E7662B2C1D7900E49AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7652B2C1D7900E49AF4 /* Preview Assets.xcassets */; };
@@ -44,6 +82,10 @@
 		7CB4E79D2B2C243A00E49AF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */; };
 		7CB4E79F2B2C24F300E49AF4 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */; };
 		7CB4E7A02B2C24F300E49AF4 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */; };
+		7CB676192B31D54900740DE8 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB676182B31D54900740DE8 /* CGFloat+Extension.swift */; };
+		7CB6761A2B31D59700740DE8 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB676182B31D54900740DE8 /* CGFloat+Extension.swift */; };
+		7CB6761C2B31DFD800740DE8 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6761B2B31DFD800740DE8 /* Colors+Extension.swift */; };
+		7CB6761D2B31E06B00740DE8 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6761B2B31DFD800740DE8 /* Colors+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +122,27 @@
 		7C7953692B304C34000F25E9 /* CenterViewCredits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewCredits.swift; sourceTree = "<group>"; };
 		7C79536A2B304C34000F25E9 /* CreditsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		7CA4ADD22B32B4FF00F9E512 /* HomeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInputView.swift; sourceTree = "<group>"; };
+		7CA4ADDC2B32E75600F9E512 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		7CA4ADE22B32F31A00F9E512 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7CA4ADE72B3319B100F9E512 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		7CA4ADEA2B3319D300F9E512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7CA4ADEB2B3319F200F9E512 /* Notepad-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Notepad-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingListTitleView.swift; sourceTree = "<group>"; };
+		7CA6D6632B3421DC00D2977E /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
+		7CA6D6662B3422C300D2977E /* LineLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLimitView.swift; sourceTree = "<group>"; };
+		7CA6D66A2B342ECA00D2977E /* ChooseAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAppearanceView.swift; sourceTree = "<group>"; };
+		7CA6D66D2B342FB500D2977E /* DisplayTotalSceneCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTotalSceneCountView.swift; sourceTree = "<group>"; };
+		7CA6D6702B34308D00D2977E /* ContactUSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUSView.swift; sourceTree = "<group>"; };
+		7CA6D6732B3430F600D2977E /* TwitterAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAccountView.swift; sourceTree = "<group>"; };
+		7CA6D6762B3432BE00D2977E /* LinkedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInView.swift; sourceTree = "<group>"; };
+		7CA6D6792B34333300D2977E /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		7CA6D67C2B34339100D2977E /* VersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionView.swift; sourceTree = "<group>"; };
+		7CA6D67F2B3433F600D2977E /* SettingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingHeaderView.swift; sourceTree = "<group>"; };
+		7CA6D6822B3437FC00D2977E /* SettingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingFooterView.swift; sourceTree = "<group>"; };
+		7CA6D6852B34408C00D2977E /* SelectDisplayCountSkinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDisplayCountSkinView.swift; sourceTree = "<group>"; };
+		7CA6D6882B3440FB00D2977E /* SettingCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCenterView.swift; sourceTree = "<group>"; };
 		7CB4E75B2B2C1D7700E49AF4 /* Notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadApp.swift; sourceTree = "<group>"; };
 		7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +157,8 @@
 		7CB4E7982B2C239600E49AF4 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		7CB676182B31D54900740DE8 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		7CB6761B2B31DFD800740DE8 /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +206,7 @@
 			children = (
 				7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */,
 				7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */,
+				7CA4ADD22B32B4FF00F9E512 /* HomeInputView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -169,6 +235,53 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
+		7CA4ADE52B33197200F9E512 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CA4ADE62B33197800F9E512 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CA4ADE62B33197800F9E512 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7CA4ADE72B3319B100F9E512 /* BebasNeue.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7CA6D6622B3421B100D2977E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7CA4ADE22B32F31A00F9E512 /* SettingsView.swift */,
+				7CA6D67F2B3433F600D2977E /* SettingHeaderView.swift */,
+				7CA6D6882B3440FB00D2977E /* SettingCenterView.swift */,
+				7CA6D6822B3437FC00D2977E /* SettingFooterView.swift */,
+				7CA6D6632B3421DC00D2977E /* DarkModeView.swift */,
+				7CA6D6662B3422C300D2977E /* LineLimitView.swift */,
+				7CA6D66A2B342ECA00D2977E /* ChooseAppearanceView.swift */,
+				7CA6D66D2B342FB500D2977E /* DisplayTotalSceneCountView.swift */,
+				7CA6D6852B34408C00D2977E /* SelectDisplayCountSkinView.swift */,
+				7CA6D6702B34308D00D2977E /* ContactUSView.swift */,
+				7CA6D6732B3430F600D2977E /* TwitterAccountView.swift */,
+				7CA6D6762B3432BE00D2977E /* LinkedInView.swift */,
+				7CA6D6792B34333300D2977E /* HelpView.swift */,
+				7CA6D67C2B34339100D2977E /* VersionView.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7CA6D68B2B34421700D2977E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7CA4ADDC2B32E75600F9E512 /* BackgroundImageView.swift */,
+				7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */,
+				7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		7CB4E7522B2C1D7700E49AF4 = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +304,7 @@
 		7CB4E75D2B2C1D7700E49AF4 /* Notepad */ = {
 			isa = PBXGroup;
 			children = (
+				7CA4ADEA2B3319D300F9E512 /* Info.plist */,
 				7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */,
 				7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */,
 				7CB4E7642B2C1D7900E49AF4 /* Preview Content */,
@@ -209,6 +323,7 @@
 		7CB4E76F2B2C1D7900E49AF4 /* Notepad Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				7CA4ADEB2B3319F200F9E512 /* Notepad-Watch-App-Info.plist */,
 				7CB4E7702B2C1D7900E49AF4 /* NotepadApp.swift */,
 				7CB4E7742B2C1D7A00E49AF4 /* Assets.xcassets */,
 				7CB4E7762B2C1D7A00E49AF4 /* Preview Content */,
@@ -227,11 +342,13 @@
 		7CB4E7822B2C1E4A00E49AF4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7CA4ADE52B33197200F9E512 /* Resources */,
 				7C7953892B308212000F25E9 /* Delegates */,
 				7C7953882B3081BE000F25E9 /* Classes */,
 				7CB4E78D2B2C209C00E49AF4 /* Utils */,
 				7CB4E7892B2C205100E49AF4 /* Modals */,
 				7CB4E7882B2C204A00E49AF4 /* Views */,
+				7CA6D68B2B34421700D2977E /* Common */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -243,6 +360,7 @@
 				7C7953862B308072000F25E9 /* Home */,
 				7C7953662B304BDF000F25E9 /* TaskDetails */,
 				7C7953872B308090000F25E9 /* Global */,
+				7CA6D6622B3421B100D2977E /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -258,6 +376,7 @@
 		7CB4E78D2B2C209C00E49AF4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				7CB676172B31D53300740DE8 /* Extensions */,
 				7CB4E7912B2C20C900E49AF4 /* Global */,
 			);
 			path = Utils;
@@ -269,6 +388,15 @@
 				7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		7CB676172B31D53300740DE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7CB676182B31D54900740DE8 /* CGFloat+Extension.swift */,
+				7CB6761B2B31DFD800740DE8 /* Colors+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +482,7 @@
 			files = (
 				7CB4E7662B2C1D7900E49AF4 /* Preview Assets.xcassets in Resources */,
 				7CB4E7632B2C1D7900E49AF4 /* Assets.xcassets in Resources */,
+				7CA4ADE82B3319B100F9E512 /* BebasNeue.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +492,7 @@
 			files = (
 				7CB4E7782B2C1D7A00E49AF4 /* Preview Assets.xcassets in Resources */,
 				7CB4E7752B2C1D7A00E49AF4 /* Assets.xcassets in Resources */,
+				7CA4ADE92B3319B100F9E512 /* BebasNeue.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,22 +503,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA6D6772B3432BE00D2977E /* LinkedInView.swift in Sources */,
+				7CA4ADDD2B32E75600F9E512 /* BackgroundImageView.swift in Sources */,
 				7C79536B2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */,
 				7CB4E79C2B2C243A00E49AF4 /* HomeView.swift in Sources */,
 				7C7953642B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */,
+				7CA6D67A2B34333300D2977E /* HelpView.swift in Sources */,
 				7CB4E7992B2C239600E49AF4 /* Notes.swift in Sources */,
 				7CB4E7932B2C215200E49AF4 /* NoDataFoundView.swift in Sources */,
+				7CA6D6742B3430F600D2977E /* TwitterAccountView.swift in Sources */,
+				7CA6D6672B3422C300D2977E /* LineLimitView.swift in Sources */,
+				7CB676192B31D54900740DE8 /* CGFloat+Extension.swift in Sources */,
 				7C7953622B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */,
+				7CA6D6712B34308D00D2977E /* ContactUSView.swift in Sources */,
+				7CA6D67D2B34339100D2977E /* VersionView.swift in Sources */,
+				7CA6D6802B3433F600D2977E /* SettingHeaderView.swift in Sources */,
 				7C79535E2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */,
 				7CB4E78B2B2C207100E49AF4 /* NoteModal.swift in Sources */,
+				7CA4ADD32B32B4FF00F9E512 /* HomeInputView.swift in Sources */,
 				7CB4E78F2B2C20A800E49AF4 /* GEnum.swift in Sources */,
 				7C79536D2B304C34000F25E9 /* FooterViewCredits.swift in Sources */,
+				7CA6D6892B3440FB00D2977E /* SettingCenterView.swift in Sources */,
+				7CA4ADE32B32F31A00F9E512 /* SettingsView.swift in Sources */,
 				7CB4E75F2B2C1D7700E49AF4 /* NotepadApp.swift in Sources */,
+				7CA6D6832B3437FC00D2977E /* SettingFooterView.swift in Sources */,
 				7C7953602B304BD1000F25E9 /* TaskDetailsView.swift in Sources */,
 				7CB4E79F2B2C24F300E49AF4 /* SessionDelegate.swift in Sources */,
+				7CA6D6862B34408C00D2977E /* SelectDisplayCountSkinView.swift in Sources */,
+				7CA4ADE02B32E8C100F9E512 /* SeparatorView.swift in Sources */,
 				7C7953812B307BB9000F25E9 /* HomeHeaderView.swift in Sources */,
+				7CB6761C2B31DFD800740DE8 /* Colors+Extension.swift in Sources */,
+				7CA6D6602B340CA100D2977E /* SettingListTitleView.swift in Sources */,
 				7C7953712B304C34000F25E9 /* CreditsView.swift in Sources */,
 				7C79536F2B304C34000F25E9 /* CenterViewCredits.swift in Sources */,
+				7CA6D66E2B342FB500D2977E /* DisplayTotalSceneCountView.swift in Sources */,
+				7CA6D6642B3421DC00D2977E /* DarkModeView.swift in Sources */,
+				7CA6D66B2B342ECA00D2977E /* ChooseAppearanceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,22 +546,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA6D6782B3432BE00D2977E /* LinkedInView.swift in Sources */,
 				7C79536C2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */,
 				7CB4E79D2B2C243A00E49AF4 /* HomeView.swift in Sources */,
 				7C7953652B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */,
+				7CA4ADE12B32E8C100F9E512 /* SeparatorView.swift in Sources */,
+				7CA6D67B2B34333300D2977E /* HelpView.swift in Sources */,
 				7CB4E79A2B2C239600E49AF4 /* Notes.swift in Sources */,
 				7CB4E7942B2C215200E49AF4 /* NoDataFoundView.swift in Sources */,
+				7CA6D6752B3430F600D2977E /* TwitterAccountView.swift in Sources */,
+				7CA6D6682B3422C300D2977E /* LineLimitView.swift in Sources */,
 				7C7953632B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */,
 				7C79535F2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */,
+				7CA6D6722B34308D00D2977E /* ContactUSView.swift in Sources */,
+				7CA6D67E2B34339100D2977E /* VersionView.swift in Sources */,
+				7CA6D6812B3433F600D2977E /* SettingHeaderView.swift in Sources */,
+				7CA4ADE42B32F31A00F9E512 /* SettingsView.swift in Sources */,
 				7CB4E78C2B2C207100E49AF4 /* NoteModal.swift in Sources */,
+				7CA4ADDE2B32E75600F9E512 /* BackgroundImageView.swift in Sources */,
+				7CA6D6612B340CA100D2977E /* SettingListTitleView.swift in Sources */,
+				7CA4ADD42B32B4FF00F9E512 /* HomeInputView.swift in Sources */,
+				7CA6D68A2B3440FB00D2977E /* SettingCenterView.swift in Sources */,
 				7CB4E7902B2C20A800E49AF4 /* GEnum.swift in Sources */,
+				7CB6761D2B31E06B00740DE8 /* Colors+Extension.swift in Sources */,
+				7CA6D6842B3437FC00D2977E /* SettingFooterView.swift in Sources */,
 				7C79536E2B304C34000F25E9 /* FooterViewCredits.swift in Sources */,
 				7CB4E7712B2C1D7900E49AF4 /* NotepadApp.swift in Sources */,
+				7CA6D6872B34408C00D2977E /* SelectDisplayCountSkinView.swift in Sources */,
 				7C7953612B304BD1000F25E9 /* TaskDetailsView.swift in Sources */,
 				7CB4E7A02B2C24F300E49AF4 /* SessionDelegate.swift in Sources */,
+				7CB6761A2B31D59700740DE8 /* CGFloat+Extension.swift in Sources */,
 				7C7953822B307BB9000F25E9 /* HomeHeaderView.swift in Sources */,
 				7C7953722B304C34000F25E9 /* CreditsView.swift in Sources */,
 				7C7953702B304C34000F25E9 /* CenterViewCredits.swift in Sources */,
+				7CA6D66F2B342FB500D2977E /* DisplayTotalSceneCountView.swift in Sources */,
+				7CA6D6652B3421DC00D2977E /* DarkModeView.swift in Sources */,
+				7CA6D66C2B342ECA00D2977E /* ChooseAppearanceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +715,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Notepad Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notepad-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.demo.Notepad;
@@ -574,6 +745,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Notepad Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notepad-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.demo.Notepad;
@@ -605,6 +777,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Notepad/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notepad/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -637,6 +810,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Notepad/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notepad/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
