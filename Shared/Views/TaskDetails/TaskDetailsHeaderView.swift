@@ -7,6 +7,11 @@
 import SwiftUI
 
 struct TaskDetailsHeaderView: View {
+    
+    //MARK: State Variables
+    @State var primaryColor = ColorConst.secondary
+    
+    
     //MARK: Main View
     var body: some View {
         HStack(alignment: .center) {
@@ -15,9 +20,12 @@ struct TaskDetailsHeaderView: View {
                 .resizable()
                 .renderingMode(.template)
                 .frame(width: CGFloat(38).resizeFontSize().resizeFontSize(), height: CGFloat(34).resizeFontSize().resizeFontSize())
-                .foregroundColor(.accentColor)
+                .foregroundColor(primaryColor)
             SeparatorView()
         }//: HSTACK
+        .onAppear {
+            primaryColor = Global().colorAppearance
+        }
     }//: body
 }
 

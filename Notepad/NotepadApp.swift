@@ -11,6 +11,8 @@ import Foundation
 @main
 struct NotepadApp: App {
 
+    @StateObject private var global: Global = Global()
+    
     var paddingStyle: CGFloat {
         #if os(watchOS)
         return 0.0
@@ -27,6 +29,7 @@ struct NotepadApp: App {
 //                TwitterAnimationView()
 //                ContentView()
             }//: Navigation View
+            .environmentObject(global)
         }
     }
 }

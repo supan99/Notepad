@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingHeaderView: View {
-    
+
     //MARK: Functions
     var dismiss : () -> ()
     

@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ContactUSView: View {
     
+    //MARK: EnvironmentObject Variables
+    @EnvironmentObject var global: Global
+    
     //MARK: Main View
     var body: some View {
         VStack {
@@ -17,7 +20,7 @@ struct ContactUSView: View {
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(.system(size: CustomSize.size24.resizeFontSize(), weight: .bold))
-                    .foregroundColor(ColorConst.primary)
+                    .foregroundColor(global.colorAppearance)
             }//: HStack
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()

@@ -9,14 +9,17 @@ import SwiftUI
 
 struct DarkModeView: View {
     
-    //MARK: Binding Variables
+    //MARK: State Variables
     @State private var isDarkMode : Bool = false
+    
+    //MARK: EnvironmentObject Variables
+    @EnvironmentObject var global: Global
     
     //MARK: Main View
     var body: some View {
         VStack {
             HStack {
-                SettingListTitleView(imageName: isDarkMode ? "moon.fill" : "sun.max.fill", titleName: "Dark Mode")
+                SettingListTitleView(imageName: global.darkMode ? "moon.fill" : "sun.max.fill", titleName: "Dark Mode")
                 Spacer()
                 Toggle("", isOn: $isDarkMode)
                     .onTapGesture {
@@ -27,6 +30,12 @@ struct DarkModeView: View {
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()
         }//:VStack
+        .onAppear(perform: {
+            isDarkMode = global.darkMode
+        })
+        .onChange(of: isDarkMode, perform: { newValue in
+            global.darkMode = isDarkMode
+        })
     }
 }
 

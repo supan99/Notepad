@@ -12,6 +12,8 @@ struct SettingListTitleView: View {
     var imageName: String
     var titleName: String
     
+    //MARK: EnvironmentObject Variables
+    @EnvironmentObject var global: Global
     
     //MARK: Main View
     var body: some View {
@@ -19,11 +21,10 @@ struct SettingListTitleView: View {
             Image(systemName: imageName)
                 .resizable()
                 .frame(width: CGFloat(25.0).resizeFontSize(), height: CGFloat(25.0).resizeFontSize())
-                .foregroundColor(ColorConst.primary)
+                .foregroundColor(global.colorAppearance)
             Text(titleName)
                 .font(.system(size: CustomSize.size26.resizeFontSize(), weight: .medium))
-                .foregroundColor(ColorConst.primary)
-            
+                .foregroundColor(global.colorAppearance)
         }//: HStack
     }
 }

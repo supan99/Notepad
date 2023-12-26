@@ -9,6 +9,9 @@ import SwiftUI
 
 struct HomeInputView: View {
     
+    //MARK: State Variables
+    @ObservedObject var global : Global  = Global()
+    
     //MARK: Binding Variables
     @Binding var txtNotes : String
     
@@ -23,7 +26,7 @@ struct HomeInputView: View {
         VStack(alignment: .center){
             TextField("Enter notes here...", text: self.$txtNotes)
                 .font(.system(size: CustomSize.size20.resizeFontSize(), weight: .medium))
-                .foregroundColor(ColorConst.primary)
+                .foregroundColor(ColorConst.titleBlack)
             Spacer()
             if (self.txtNotes.count > 0) {
                 Button {
@@ -34,7 +37,7 @@ struct HomeInputView: View {
                 }
                 .frame(minWidth: 80, maxWidth: .infinity)
                 .buttonStyle(.plain)
-                .background(ColorConst.primary)
+                .background(global.colorAppearance)
                 .foregroundColor(ColorConst.white)
                 .cornerRadius(CustomSize.size10.resizeFontSize())
                 .padding(.top, CustomSize.size20.makeZero())

@@ -19,16 +19,12 @@ struct TaskDetailsFooterView: View {
     //MARK: Main View
     var body: some View {
         HStack {
-            Image(systemName: "gear")
-                .resizable()
-                .frame(width: CGFloat(35).resizeFontSize().resizeFontSize(), height: CGFloat(35).resizeFontSize().resizeFontSize())
-                .foregroundColor(.gray)
-                .onTapGesture {
-                    isSettingsView.toggle()
-                }
-                .fullScreenCover(isPresented: $isSettingsView) {
-                    SettingsView()
-                }
+            NavigationLink(destination: SettingsView()) {
+                Image(systemName: "gear")
+                    .resizable()
+                    .frame(width: CGFloat(35).resizeFontSize().resizeFontSize(), height: CGFloat(35).resizeFontSize().resizeFontSize())
+                    .foregroundColor(.gray)
+            }
             
             Spacer()
             Text("\(currentNoteIndex+1)/\(numberOfNotes)")

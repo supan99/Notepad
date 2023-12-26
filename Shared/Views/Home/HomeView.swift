@@ -7,15 +7,20 @@
 
 import SwiftUI
 import Foundation
+//import CoreTelephony
 
 struct HomeView: View {
-    //MARK: Variables
+    //MARK: State Variables
     @State private var txtNotes: String = ""
     @State private var isAdded : Bool = false
     @State private var isDetailViewActive = false
     @State private var editIndex : Int = -1
+    @StateObject var global : Global = Global()
+    
+    //MARK: Observe Variables
     @ObservedObject var todo = Todo()
     
+    //MARK: Action Function
     //Add Notes into list function
     func addAction() {
         (editIndex != -1) ? todo.editNote(editIndex, txtNotes) : todo.add(Note(note: txtNotes, isComplete: false))
@@ -35,34 +40,21 @@ struct HomeView: View {
     func rightSwipeAction(_ notesIndex: Int, _ isDelete: Bool) {
         isDelete ? todo.deleteNote(notesIndex) : todo.updateNoteTask(notesIndex)
     }
-    
-    private func makeStringUsingNoteNumber(_ index: Int) -> String {
-        let count = todo.notesList.count
-        var notesCount = "000"
-        if (count > 999) {
-            notesCount = "99+"
-        } else if (count < 999 && count > 99) {
-            notesCount = todo.notesList.count.description
-        } else if (count < 99 && count > 9) {
-            notesCount = "0"+count.description
-        } else if (count <= 9) {
-            notesCount = "00"+count.description
-        }
-        return Array(notesCount)[index].description
-    }
 
     //MARK: Main View
     var body: some View {
         ZStack(alignment: .center){
             BackgroundImageView()
             VStack(alignment: .center){
-                headerView
+                HomeHeaderView(isAdded: $isAdded, editIndex: $editIndex, noteCount: todo.notesList.count)
+                    .environmentObject(global)
                 centerView
                 Spacer()
             }//: VSTACK
             .task { todo.getNotes() }
             .padding(.horizontal, CGFloat(20).makeZero())
-        }
+        }//: ZStack
+        .environmentObject(global)
     }//: body
     
     var centerView: some View {
@@ -80,6 +72,7 @@ struct HomeView: View {
             }
         }//VSTACK
         .animation(.easeInOut(duration: 1.5), value: isAdded)
+        .environmentObject(global)
     }//: centerView
     
     var inputView: some View {
@@ -108,9 +101,11 @@ struct HomeView: View {
                                 .foregroundColor(task.isComplete ? .green : .orange)
                             Text(task.note)
                                 .font(.system(size: CustomSize.size20, weight: .medium))
-                                .foregroundColor(ColorConst.titleBlack)
+                                .foregroundColor(Global().colorAppearance)
                                 .padding(.vertical, CustomSize.size08.makeZero())
                                 .strikethrough(task.isComplete)
+                                .lineLimit(Global().numberOfLines == 0 ? nil : Global().numberOfLines)
+                                .multilineTextAlignment(TextAlignment.leading)
                             Spacer()
                         }//HSTACK
                         .padding(.vertical, CustomSize.size04.makeZero())
@@ -145,62 +140,7 @@ struct HomeView: View {
                 }//LOOP: FOREACH
             }//VSTACK
         }
-        .navigationBarBackButtonHidden()
-        
     }//: listView
-    
-    var headerView: some View {
-        HStack(alignment: .center) {
-            HStack(spacing: 0){
-                Text("N")
-                    .font(.system(size: CustomSize.size40.resizeFontSize(), weight: .semibold))
-                    .foregroundColor(ColorConst.titleBlack)
-                Circle()
-                    .stroke(ColorConst.primary, lineWidth: CustomSize.size06.resizeFontSize())
-                    .frame(width: CustomSize.size30.resizeFontSize(), height: CustomSize.size30.resizeFontSize())
-                    .overlay {
-                        Text(self.makeStringUsingNoteNumber(0))
-                            .font(.system(size: CustomSize.size24.resizeFontSize(), weight: .semibold))
-                            .foregroundColor(ColorConst.titleBlack)
-                }
-                Circle()
-                    .stroke(ColorConst.primary, lineWidth: CustomSize.size06.resizeFontSize())
-                    .frame(width: CustomSize.size30.resizeFontSize(), height: CustomSize.size30.resizeFontSize())
-                    .overlay {
-                        Text(self.makeStringUsingNoteNumber(1))
-                            .font(.system(size: CustomSize.size24.resizeFontSize(), weight: .semibold))
-                            .foregroundColor(ColorConst.titleBlack)
-                }
-                Circle()
-                    .stroke(ColorConst.primary, lineWidth: CustomSize.size06.resizeFontSize())
-                    .frame(width: CustomSize.size30.resizeFontSize(), height: CustomSize.size30.resizeFontSize())
-                    .overlay {
-                        Text(self.makeStringUsingNoteNumber(2))
-                            .font(.system(size: CustomSize.size24.resizeFontSize(), weight: .semibold))
-                            .foregroundColor(ColorConst.titleBlack)
-                }
-                Text("TES")
-                    .font(.system(size: CustomSize.size40.resizeFontSize(), weight: .semibold))
-                    .foregroundColor(ColorConst.titleBlack)
-            } //:HStack
-            Spacer()
-            Button {
-                isAdded.toggle()
-                editIndex = -1
-            } label: {
-                Image(systemName: "plus.circle")
-                    .font(.system(size: CustomSize.size35.resizeFontSize(), weight: .semibold))
-            }//BUTTON
-            .fixedSize()
-            .buttonStyle(PlainButtonStyle())
-            .foregroundColor(ColorConst.primary)
-            .rotationEffect(Angle(degrees: isAdded ? 315 : 0))
-            .animation(.easeOut(duration: 0.5), value: isAdded)
-        }//HSTACK
-        .task {
-//            self.makeStringUsingNoteNumber(0)
-        }
-    }
 }
 
 

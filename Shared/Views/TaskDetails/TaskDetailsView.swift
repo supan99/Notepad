@@ -14,7 +14,6 @@ struct TaskDetailsView: View {
     let numberOfNotes: Int
     let currentNoteIndex : Int
     
-    
     //MARK: VIEWS
     var body: some View {
         ZStack(alignment: .center) {

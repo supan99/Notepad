@@ -9,6 +9,9 @@ import SwiftUI
 
 struct SettingsView: View {
 
+    //MARK: State Variables
+    @StateObject private var global: Global = Global()
+    
     //MARK: Environment Variables
     @Environment(\.presentationMode) private var presentationMode //declare for a dismiss view
     
@@ -16,7 +19,6 @@ struct SettingsView: View {
     private func dismissView() {
         self.presentationMode.wrappedValue.dismiss()
     }
-    
     
     //MARK: Main View
     var body: some View {
@@ -37,6 +39,8 @@ struct SettingsView: View {
             }//: ScrollView
             .padding(.horizontal, CGFloat(10).resizeFontSize())
         }//: ZStack
+        .environmentObject(global)
+        .navigationBarBackButtonHidden()
     }//: Body Main View
 }
 

@@ -8,16 +8,29 @@
 import SwiftUI
 
 struct TaskDetailsCenterView: View {
+    
+    //MARK: Struct Variables
     let notes : Note
+    
+    //MARK: Observe Variables
+    @State private var primaryColor = ColorConst.secondary
+    @State private var lineNumber = 0
+    
+    //MARK: Main View
     var body: some View {
         ScrollView(.vertical) {
             Text(notes.note)
-                .padding(.top, 10)
-                .foregroundColor(ColorConst.titleBlack)
+                .padding([.top, .horizontal], CustomSize.size10.makeZero())
+                .foregroundColor(primaryColor)
                 .font(.system(size: CustomSize.size20, weight: .medium ))
-                .multilineTextAlignment(.center)
+                .multilineTextAlignment(.leading)
+                .lineLimit(lineNumber == 0 ? nil : lineNumber)
         }//: SCROLLVIEW
         .padding(.vertical, CGFloat(10).makeZero())
+        .onAppear {
+            primaryColor = Global().colorAppearance
+            lineNumber = Global().numberOfLines
+        }
     }
 }
 

@@ -39,24 +39,63 @@ extension UIColor {
 }
 
 
-enum ColorConst  {
-    static var primary = Color("AccentColor")
-    static var titleBlack = Color("TextBlack")
-    static var white = Color(uiColor: .white)
-    static var white10 = Color(uiColor: UIColor(hex: "#FFFFFF10") ?? .white)
-    static var white20 = Color(uiColor: UIColor(hex: "#FFFFFF20") ?? .white)
-    static var white50 = Color(uiColor: UIColor(hex: "#FFFFFF50") ?? .white)
-    static var c2C2F3DFF = Color(uiColor: UIColor(hex: "#2C2F3DFF") ?? .white)
-    static var cC4C4C4FF = Color(uiColor: UIColor(hex: "#C4C4C4FF") ?? .white)
-    static var c9FA1ACFF = Color(uiColor: UIColor(hex: "#9FA1ACFF") ?? .white)
-    static var c595C68FF = Color(uiColor: UIColor(hex: "#595C68FF") ?? .white)
-    static var cFFF0D3FF = Color(uiColor: UIColor(hex: "#FFF0D3FF") ?? .white)
-    static var cF5F5F5FF = Color(uiColor: UIColor(hex: "#F5F5F5FF") ?? .white)
-    static var cFE91B0FF = Color(uiColor: UIColor(hex: "#FE91B0FF") ?? .white)
-    static var cFFB835FF = Color(uiColor: UIColor(hex: "#FFB835FF") ?? .white)
-    static var c6B6D7AFF = Color(uiColor: UIColor(hex: "#6B6D7AFF") ?? .white)
-    static var cFF316BFF = Color(uiColor: UIColor(hex: "#FF316BFF") ?? .white)
-    static var c00B2FFFF = Color(uiColor: UIColor(hex: "#00B2FFFF") ?? .white)
-    static var cFFEFBAFF = Color(uiColor: UIColor(hex: "#FFEFBAFF") ?? .white)
-    static var c979797FF = Color(uiColor: UIColor(hex: "#979797FF") ?? .white)
+// Inspired by https://cocoacasts.com/from-hex-to-uicolor-and-back-in-swift
+// Make Color codable. This includes support for transparency.
+// See https://www.digitalocean.com/community/tutorials/css-hex-code-colors-alpha-values
+
+extension Color: Codable {
+  init(hex: String) {
+    let rgba = hex.toRGBA()
+    
+    self.init(.sRGB,
+              red: Double(rgba.r),
+              green: Double(rgba.g),
+              blue: Double(rgba.b),
+              opacity: Double(rgba.alpha))
+  }
+  
+  public init(from decoder: Decoder) throws {
+    let container = try decoder.singleValueContainer()
+    let hex = try container.decode(String.self)
+    
+    self.init(hex: hex)
+  }
+  
+  public func encode(to encoder: Encoder) throws {
+    var container = encoder.singleValueContainer()
+    try container.encode(toHex)
+  }
+  
+  var toHex: String? {
+    return toHex()
+  }
+  
+  func toHex(alpha: Bool = false) -> String? {
+    guard let components = cgColor?.components, components.count >= 3 else {
+      return nil
+    }
+    
+    let r = Float(components[0])
+    let g = Float(components[1])
+    let b = Float(components[2])
+    var a = Float(1.0)
+    
+    if components.count >= 4 {
+      a = Float(components[3])
+    }
+    
+    if alpha {
+      return String(format: "%02lX%02lX%02lX%02lX",
+                    lroundf(r * 255),
+                    lroundf(g * 255),
+                    lroundf(b * 255),
+                    lroundf(a * 255))
+    }
+    else {
+      return String(format: "%02lX%02lX%02lX",
+                    lroundf(r * 255),
+                    lroundf(g * 255),
+                    lroundf(b * 255))
+    }
+  }
 }

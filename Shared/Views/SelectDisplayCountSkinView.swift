@@ -22,9 +22,6 @@ struct SelectDisplayCountSkinView: View {
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()
         }//: VStack
-        .onTapGesture {
-            print("CA::ED")
-        }
     }
 }
 

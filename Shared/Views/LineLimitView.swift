@@ -9,7 +9,8 @@ import SwiftUI
 
 struct LineLimitView: View {
     //MARK: State Variables
-    @State private var lineLimit = 1
+    @EnvironmentObject private var global : Global
+    @State private var lineLimit = 0
     
     //MARK: Main View
     var body: some View {
@@ -23,6 +24,12 @@ struct LineLimitView: View {
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()
         }//: VStack
+        .task {
+            lineLimit = global.numberOfLines
+        }
+        .onChange(of: lineLimit, perform: { newValue in
+            global.numberOfLines = newValue
+        })
     }
 }
 

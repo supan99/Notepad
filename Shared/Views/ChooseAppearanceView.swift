@@ -11,6 +11,9 @@ struct ChooseAppearanceView: View {
     //MARK: State Variables
     @State private var colorPicker = ColorConst.titleBlack // declare a binding for the Color Appearance
     
+    //MARK: EnvironmentObject Variables
+    @EnvironmentObject var global: Global
+    
     //MARK: Main View
     var body: some View {
         VStack {
@@ -25,6 +28,12 @@ struct ChooseAppearanceView: View {
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()
         }//: VStack
+        .task {
+            colorPicker = global.colorAppearance
+        }
+        .onChange(of: colorPicker) { newValue in
+            global.colorAppearance = newValue
+        }
     }
 }
 
