@@ -98,6 +98,8 @@
 		7CBE36DF2B3565930082819E /* HomeCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE36DD2B3565930082819E /* HomeCircleView.swift */; };
 		7CBE36E12B356E0B0082819E /* SkinsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE36E02B356E0B0082819E /* SkinsListView.swift */; };
 		7CBE36E22B356E0B0082819E /* SkinsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE36E02B356E0B0082819E /* SkinsListView.swift */; };
+		C789F8E820E4DC6BD5E5E433 /* Pods_Notepad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CE74E7592B66C742C65110 /* Pods_Notepad.framework */; };
+		E6F24304C78D627AF04596FF /* Pods_Notepad_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8102C70891DA65287D107 /* Pods_Notepad_Watch_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +127,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15CE74E7592B66C742C65110 /* Pods_Notepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A64EAEFC05191072F62415 /* Pods-Notepad Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notepad Watch App.debug.xcconfig"; path = "Target Support Files/Pods-Notepad Watch App/Pods-Notepad Watch App.debug.xcconfig"; sourceTree = "<group>"; };
 		7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsFooterView.swift; sourceTree = "<group>"; };
 		7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
 		7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsHeaderView.swift; sourceTree = "<group>"; };
@@ -177,6 +181,10 @@
 		7CB6761B2B31DFD800740DE8 /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
 		7CBE36DD2B3565930082819E /* HomeCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCircleView.swift; sourceTree = "<group>"; };
 		7CBE36E02B356E0B0082819E /* SkinsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinsListView.swift; sourceTree = "<group>"; };
+		7FB1F98D48F040E8761BF3F2 /* Pods-Notepad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notepad.debug.xcconfig"; path = "Target Support Files/Pods-Notepad/Pods-Notepad.debug.xcconfig"; sourceTree = "<group>"; };
+		84D19E0A62380546A264CB1F /* Pods-Notepad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notepad.release.xcconfig"; path = "Target Support Files/Pods-Notepad/Pods-Notepad.release.xcconfig"; sourceTree = "<group>"; };
+		ABB8102C70891DA65287D107 /* Pods_Notepad_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notepad_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB98B89A3C0881302770366 /* Pods-Notepad Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notepad Watch App.release.xcconfig"; path = "Target Support Files/Pods-Notepad Watch App/Pods-Notepad Watch App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C789F8E820E4DC6BD5E5E433 /* Pods_Notepad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,12 +200,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F24304C78D627AF04596FF /* Pods_Notepad_Watch_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039078DE969B046D666BE531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FB1F98D48F040E8761BF3F2 /* Pods-Notepad.debug.xcconfig */,
+				84D19E0A62380546A264CB1F /* Pods-Notepad.release.xcconfig */,
+				70A64EAEFC05191072F62415 /* Pods-Notepad Watch App.debug.xcconfig */,
+				BBB98B89A3C0881302770366 /* Pods-Notepad Watch App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7C7953662B304BDF000F25E9 /* TaskDetails */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +331,8 @@
 				7CB4E75D2B2C1D7700E49AF4 /* Notepad */,
 				7CB4E76F2B2C1D7900E49AF4 /* Notepad Watch App */,
 				7CB4E75C2B2C1D7700E49AF4 /* Products */,
+				039078DE969B046D666BE531 /* Pods */,
+				A4FDF5E476A46ED104D42F25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -423,6 +446,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A4FDF5E476A46ED104D42F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15CE74E7592B66C742C65110 /* Pods_Notepad.framework */,
+				ABB8102C70891DA65287D107 /* Pods_Notepad_Watch_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -430,6 +462,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CB4E77F2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad" */;
 			buildPhases = (
+				B59883B56BB11B2B02939116 /* [CP] Check Pods Manifest.lock */,
 				7CB4E7572B2C1D7700E49AF4 /* Sources */,
 				7CB4E7582B2C1D7700E49AF4 /* Frameworks */,
 				7CB4E7592B2C1D7700E49AF4 /* Resources */,
@@ -441,6 +474,8 @@
 				7CB4E76E2B2C1D7900E49AF4 /* PBXTargetDependency */,
 			);
 			name = Notepad;
+			packageProductDependencies = (
+			);
 			productName = Notepad;
 			productReference = 7CB4E75B2B2C1D7700E49AF4 /* Notepad.app */;
 			productType = "com.apple.product-type.application";
@@ -449,6 +484,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CB4E77B2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad Watch App" */;
 			buildPhases = (
+				2715E33D5C76CC4A2E6E2AC1 /* [CP] Check Pods Manifest.lock */,
 				7CB4E7672B2C1D7900E49AF4 /* Sources */,
 				7CB4E7682B2C1D7900E49AF4 /* Frameworks */,
 				7CB4E7692B2C1D7900E49AF4 /* Resources */,
@@ -489,6 +525,8 @@
 				Base,
 			);
 			mainGroup = 7CB4E7522B2C1D7700E49AF4;
+			packageReferences = (
+			);
 			productRefGroup = 7CB4E75C2B2C1D7700E49AF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -521,6 +559,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2715E33D5C76CC4A2E6E2AC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notepad Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59883B56BB11B2B02939116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notepad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CB4E7572B2C1D7700E49AF4 /* Sources */ = {
@@ -665,6 +750,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -723,6 +809,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -743,6 +830,7 @@
 		};
 		7CB4E77C2B2C1D7A00E49AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A64EAEFC05191072F62415 /* Pods-Notepad Watch App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -773,6 +861,7 @@
 		};
 		7CB4E77D2B2C1D7A00E49AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB98B89A3C0881302770366 /* Pods-Notepad Watch App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -804,6 +893,7 @@
 		};
 		7CB4E7802B2C1D7A00E49AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB1F98D48F040E8761BF3F2 /* Pods-Notepad.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -837,6 +927,7 @@
 		};
 		7CB4E7812B2C1D7A00E49AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D19E0A62380546A264CB1F /* Pods-Notepad.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

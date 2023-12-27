@@ -17,6 +17,9 @@ struct HomeView: View {
     @State private var editIndex : Int = -1
     @StateObject var global : Global = Global()
     
+    
+    @GestureState private var offset: CGSize = .zero
+    
     //MARK: Observe Variables
     @ObservedObject var todo = Todo()
     
@@ -89,8 +92,8 @@ struct HomeView: View {
     }//: inputView
     
     var listView: some View {
-        ScrollView {
-            VStack(alignment: .leading){
+        List {
+//            VStack(alignment: .leading){
                 let numbersOfTodo = todo.notesList.count
                 ForEach(0..<numbersOfTodo, id: \.self) { todoIndex in
                     let task = todo.notesList[todoIndex]
@@ -125,8 +128,9 @@ struct HomeView: View {
                             } label: {
                                 Image(systemName: "trash")
                             }
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
                             .tint(.red)
-                            
+
                             Button {
                                 withAnimation {
                                     self.rightSwipeAction(todoIndex, false)
@@ -138,8 +142,12 @@ struct HomeView: View {
                         }// SWIPE ACTION TRAILING
                     }//: Navigation Link
                 }//LOOP: FOREACH
-            }//VSTACK
-        }
+//                .listRowSeparator(.hidden)
+                .listRowBackground(Color.clear)
+//            }//VSTACK
+        }//: SCROLLVIEW
+        .listStyle(PlainListStyle())
+        .background(Color.clear)
     }//: listView
 }
 
@@ -148,5 +156,28 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+    }
+}
+
+
+struct SwipeActionView: View {
+    var action: () -> Void
+    var label: String
+    
+    var body: some View {
+        ZStack {
+            Rectangle()
+                .fill(Color.blue.opacity(0.1))
+                .cornerRadius(32) // This applies the same corner radius as the row
+            Text(label)
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding()
+            Button(action: action) {
+                Image(systemName: "trash")
+                    .foregroundColor(.red)
+                    .padding()
+            }
+        }
     }
 }
