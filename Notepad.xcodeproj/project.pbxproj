@@ -22,6 +22,8 @@
 		7C79536F2B304C34000F25E9 /* CenterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953692B304C34000F25E9 /* CenterViewCredits.swift */; };
 		7C7953712B304C34000F25E9 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79536A2B304C34000F25E9 /* CreditsView.swift */; };
 		7C7953812B307BB9000F25E9 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */; };
+		7C8DC04C2B4FFAB1006F491F /* Designer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DC04B2B4FFAB1006F491F /* Designer.gif */; };
+		7C8DC04E2B4FFAC3006F491F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DC04D2B4FFAC3006F491F /* LaunchScreen.storyboard */; };
 		7C9597852B4D66EE00DA41F6 /* DeleterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9597842B4D66EE00DA41F6 /* DeleterView.swift */; };
 		7C9597882B4D6A3100DA41F6 /* EmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9597872B4D6A3100DA41F6 /* EmitterView.swift */; };
 		7C95978B2B4D6BB900DA41F6 /* Particles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95978A2B4D6BB900DA41F6 /* Particles.swift */; };
@@ -99,6 +101,8 @@
 		7C7953692B304C34000F25E9 /* CenterViewCredits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewCredits.swift; sourceTree = "<group>"; };
 		7C79536A2B304C34000F25E9 /* CreditsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		7C8DC04B2B4FFAB1006F491F /* Designer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Designer.gif; path = Assets/Designer.gif; sourceTree = SOURCE_ROOT; };
+		7C8DC04D2B4FFAC3006F491F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C9597842B4D66EE00DA41F6 /* DeleterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleterView.swift; sourceTree = "<group>"; };
 		7C9597872B4D6A3100DA41F6 /* EmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterView.swift; sourceTree = "<group>"; };
 		7C95978A2B4D6BB900DA41F6 /* Particles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particles.swift; sourceTree = "<group>"; };
@@ -233,6 +237,7 @@
 		7CA4ADE52B33197200F9E512 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7C8DC04B2B4FFAB1006F491F /* Designer.gif */,
 				7CA4ADE62B33197800F9E512 /* Fonts */,
 			);
 			path = Resources;
@@ -306,6 +311,7 @@
 		7CB4E75D2B2C1D7700E49AF4 /* Notepad */ = {
 			isa = PBXGroup;
 			children = (
+				7C8DC04D2B4FFAC3006F491F /* LaunchScreen.storyboard */,
 				7C2B27242B428AF5001D0B15 /* Notepad.entitlements */,
 				7CA4ADEA2B3319D300F9E512 /* Info.plist */,
 				7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */,
@@ -466,7 +472,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CB4E7662B2C1D7900E49AF4 /* Preview Assets.xcassets in Resources */,
+				7C8DC04C2B4FFAB1006F491F /* Designer.gif in Resources */,
 				7CB4E7632B2C1D7900E49AF4 /* Assets.xcassets in Resources */,
+				7C8DC04E2B4FFAC3006F491F /* LaunchScreen.storyboard in Resources */,
 				7CA4ADE82B3319B100F9E512 /* BebasNeue.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,6 +689,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Notepad/Notepad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -693,6 +702,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -720,6 +730,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Notepad/Notepad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -732,6 +743,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
