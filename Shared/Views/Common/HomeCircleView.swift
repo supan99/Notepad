@@ -13,7 +13,9 @@ struct HomeCircleView: View {
     
     //MARK: State Variables
     @State private var showDisplay : Bool = false
+    @EnvironmentObject var global: Global
     @State private var skin : Skin = Global().skinList[Global().skinCode]
+    
     
     var body: some View {
         Circle()

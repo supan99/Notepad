@@ -24,6 +24,7 @@ struct HomeSecondView: View {
         \u{2022} To add further action to a note, use the right swipe.
     """
     
+    //Drag gesture use for the add notes animation gesture.
     var dragGesture: some Gesture {
         DragGesture(minimumDistance: 3.0, coordinateSpace: .local)
             .onEnded { value in
@@ -57,7 +58,7 @@ struct HomeSecondView: View {
                 if (!isAdded && notesManager.notes.count == 0) {
                     NoDataFoundView(title: "No notes found !!! \nSwipe down to add note.")
                 } else if (!isAdded) {
-                    ListView()
+                    NotesListView()
                         .environmentObject(notesManager)
                 }
             }
@@ -78,31 +79,4 @@ struct HomeSecondView_Previews: PreviewProvider {
     static var previews: some View {
         HomeSecondView()
     }
-}
-
-
-struct ListView: View {
-    
-    //MARK: Variables
-    @EnvironmentObject var notesManager : NotesManager
-    var index: Int = 0
-    
-    
-    //MARK: Views
-    var body: some View {
-        //ScrollView
-        if (notesManager.notes.count > 0) {
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(spacing: 0) {
-                    ForEach(Array(notesManager.notes.enumerated()), id: \.offset) { index, notes in
-                        TaskRowView(note: notes, index: index + 1)
-                            .padding(.horizontal, 20)
-                            .environmentObject(notesManager)
-                    }
-                }
-            }
-        } else {
-        }
-    }
-    
 }

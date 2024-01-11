@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TwitterAccountView: View {
     //MARK: Variables
-    @State private var colorCode: Color = Global().colorAppearance
+    @EnvironmentObject var global: Global
     
     //MARK: Views
     var body: some View {
@@ -19,14 +19,11 @@ struct TwitterAccountView: View {
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(.system(size: CustomSize.size24.resizeFontSize(), weight: .bold))
-                    .foregroundColor(self.colorCode)
+                    .foregroundColor(global.colorAppearance)
             }//: HStack
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()
         }//:VStack
-        .onAppear(){
-            self.colorCode = Global().colorAppearance
-        }
     }
 }
 

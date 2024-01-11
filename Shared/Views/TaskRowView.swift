@@ -11,7 +11,6 @@ struct TaskRowView: View {
     
     //MARK: Variables
     @EnvironmentObject var notesManager: NotesManager
-    
     @ObservedObject var note : Note
     
     @State var viewOffset: CGFloat = 2
@@ -24,9 +23,9 @@ struct TaskRowView: View {
     let baseOffset: CGFloat = -2
     let deleteOffset: CGFloat = -40
     let animationDuration: TimeInterval = 0.3
-    
     let dragLimit: CGFloat = 30
     
+    //Drag gesture for the swipe actions
     var dragGesture: some Gesture {
         DragGesture(minimumDistance: 3.0, coordinateSpace: .local)
             .onEnded { value in
@@ -44,8 +43,34 @@ struct TaskRowView: View {
             }
     }
     
-    //MARK: Views
+    //MARK: Functions
     
+    //Perform the delete animation on the specific row
+    func deleteRow() {
+        withAnimation(.default) {
+            removeRow = true
+        }
+        
+        Timer.scheduledTimer(withTimeInterval: animationDuration, repeats: false) { _ in
+            withAnimation(.easeInOut(duration: animationDuration)) {
+                viewOffset = -UIScreen.main.bounds.width
+            }
+        }
+        
+        Timer.scheduledTimer(withTimeInterval: animationDuration * 2.5, repeats: false) { _ in
+            delete()
+        }
+    }
+    
+    //Perform the delete operation on the row
+    func delete() {
+        notesManager.removeData(note: note)
+        removeRow = false
+        viewOffset = 2
+        showRemove = false
+    }
+    
+    //MARK: Views
     var body: some View {
         ZStack(alignment: .leading) {
             ZStack {
@@ -89,6 +114,7 @@ struct TaskRowView: View {
             }
             .offset(x: viewOffset)
             
+            //Swipe right delete button
             HStack {
                 Spacer()
                 Button {
@@ -107,6 +133,7 @@ struct TaskRowView: View {
                 .offset(x: 48)
                 .frame(width: 32, height: 32)
                 
+                //Strike Through event on task
                 DeleterView(isDeleting: $removeRow)
                     .frame(width: 32, height: 32)
                     .opacity(removeRow ? 1 : 0)
@@ -114,6 +141,7 @@ struct TaskRowView: View {
             }
             .zIndex(4)
             
+            //After Delete popup events view
             EmitterView()
                 .opacity(removeRow ? 1 : 0)
         }
@@ -123,30 +151,6 @@ struct TaskRowView: View {
             self.lineLimit = Global().numberOfLines
         }
         .gesture(dragGesture)
-    }
-    
-    
-    func deleteRow() {
-        withAnimation(.default) {
-            removeRow = true
-        }
-        
-        Timer.scheduledTimer(withTimeInterval: animationDuration, repeats: false) { _ in
-            withAnimation(.easeInOut(duration: animationDuration)) {
-                viewOffset = -UIScreen.main.bounds.width
-            }
-        }
-        
-        Timer.scheduledTimer(withTimeInterval: animationDuration * 2.5, repeats: false) { _ in
-            delete()
-        }
-    }
-    
-    func delete() {
-        notesManager.removeData(note: note)
-        removeRow = false
-        viewOffset = 2
-        showRemove = false
     }
 }
 
