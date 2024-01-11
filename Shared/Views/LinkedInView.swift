@@ -9,19 +9,25 @@ import SwiftUI
 
 struct LinkedInView: View {
     
-    //MARK: Main View
+    //MARK: Variables
+    @State private var colorCode: Color = Global().colorAppearance
+    
+    //MARK: Views
     var body: some View {
         VStack {
             HStack(spacing: 0){
-                SettingListTitleView(imageName: "", titleName: "supnshah")
+                SettingListTitleView(imageName: "linkedIn", titleName: "supnshah", isSystemImage: false)
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(.system(size: CustomSize.size24.resizeFontSize(), weight: .bold))
-                    .foregroundColor(ColorConst.primary)
+                    .foregroundColor(self.colorCode)
             }//: HStack
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()
         }//:VStack
+        .onAppear(){
+            self.colorCode = Global().colorAppearance
+        }
     }
 }
 

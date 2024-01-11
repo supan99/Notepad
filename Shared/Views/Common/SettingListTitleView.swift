@@ -11,6 +11,7 @@ struct SettingListTitleView: View {
     //MARK: Struct Variables
     var imageName: String
     var titleName: String
+    var isSystemImage: Bool = true
     
     //MARK: EnvironmentObject Variables
     @EnvironmentObject var global: Global
@@ -18,10 +19,18 @@ struct SettingListTitleView: View {
     //MARK: Main View
     var body: some View {
         HStack(spacing: CustomSize.size10.resizeFontSize()){
-            Image(systemName: imageName)
-                .resizable()
-                .frame(width: CGFloat(25.0).resizeFontSize(), height: CGFloat(25.0).resizeFontSize())
-                .foregroundColor(global.colorAppearance)
+            if (isSystemImage) {
+                Image(systemName: imageName)
+                    .resizable()
+                    .frame(width: CGFloat(25.0).resizeFontSize(), height: CGFloat(25.0).resizeFontSize())
+                    .foregroundColor(global.colorAppearance)
+            } else {
+                Image(imageName)
+                    .resizable()
+                    .frame(width: CGFloat(25.0).resizeFontSize(), height: CGFloat(25.0).resizeFontSize())
+                    .foregroundColor(global.colorAppearance)
+            }
+            
             Text(titleName)
                 .font(.system(size: CustomSize.size26.resizeFontSize(), weight: .medium))
                 .foregroundColor(global.colorAppearance)

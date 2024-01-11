@@ -78,5 +78,3 @@ class Global: ObservableObject {
         }
     }
 }
-
-//@StateObject var global = Global()

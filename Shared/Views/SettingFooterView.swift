@@ -13,8 +13,8 @@ struct SettingFooterView: View {
     var body: some View {
         VStack {
             ContactUSView() //: Contact us
-//            TwitterAccountView() //: Twitter
-//            LinkedInView() //: LinkedIn
+            TwitterAccountView() //: Twitter
+            LinkedInView() //: LinkedIn
             HelpView() //: Help
             Spacer()
             VersionView() //: Version View

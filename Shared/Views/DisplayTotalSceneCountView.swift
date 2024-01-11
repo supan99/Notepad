@@ -17,7 +17,6 @@ struct DisplayTotalSceneCountView: View {
         VStack{
             HStack(spacing: 0){
                 SettingListTitleView(imageName: "00.square.fill", titleName: "Display total count")
-                Spacer()
                 Toggle("", isOn: $showCount)
                     .onTapGesture {
                         showCount.toggle()

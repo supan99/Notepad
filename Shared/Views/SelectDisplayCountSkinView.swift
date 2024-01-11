@@ -9,7 +9,10 @@ import SwiftUI
 
 struct SelectDisplayCountSkinView: View {
     
-    //MARK: Main View
+    //MARK: Variables
+    @EnvironmentObject var global: Global
+    
+    //MARK: Views
     var body: some View {
         VStack{
             HStack(spacing: 0){
@@ -17,7 +20,7 @@ struct SelectDisplayCountSkinView: View {
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(.system(size: CustomSize.size24.resizeFontSize(), weight: .bold))
-                    .foregroundColor(ColorConst.primary)
+                    .foregroundColor(global.colorAppearance)
             }//: HStack
             .padding(.vertical, CGFloat(10.0).resizeFontSize())
             Divider()

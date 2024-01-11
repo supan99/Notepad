@@ -10,24 +10,15 @@ import Foundation
 
 @main
 struct NotepadApp: App {
-
+    //MARK: Variables
     @StateObject private var global: Global = Global()
     
-    var paddingStyle: CGFloat {
-        #if os(watchOS)
-        return 0.0
-        #else
-        return 20.0
-        #endif
-    }
     
-    
+    //MARK: Views
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                HomeView()
-//                TwitterAnimationView()
-//                ContentView()
+                HomeSecondView()
             }//: Navigation View
             .environmentObject(global)
         }

@@ -7,110 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1C394C2B4E6659004B6845 /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C394B2B4E6659004B6845 /* NotesManager.swift */; };
+		7C1C394E2B4E6E8A004B6845 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C394D2B4E6E8A004B6845 /* TaskRowView.swift */; };
+		7C6E62DD2B4EC275004CB17C /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E62DC2B4EC275004CB17C /* LineView.swift */; };
+		7C6E62DF2B4EC2B9004CB17C /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E62DE2B4EC2B9004CB17C /* BannerView.swift */; };
+		7C6E62E12B4EC2EB004CB17C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E62E02B4EC2EB004CB17C /* UIView+Extension.swift */; };
 		7C79535E2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */; };
-		7C79535F2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */; };
 		7C7953602B304BD1000F25E9 /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */; };
-		7C7953612B304BD1000F25E9 /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */; };
 		7C7953622B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */; };
-		7C7953632B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */; };
 		7C7953642B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535D2B304BD1000F25E9 /* TaskDetailsCenterView.swift */; };
-		7C7953652B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79535D2B304BD1000F25E9 /* TaskDetailsCenterView.swift */; };
 		7C79536B2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953672B304C34000F25E9 /* HeaderViewCredit.swift */; };
-		7C79536C2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953672B304C34000F25E9 /* HeaderViewCredit.swift */; };
 		7C79536D2B304C34000F25E9 /* FooterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953682B304C34000F25E9 /* FooterViewCredits.swift */; };
-		7C79536E2B304C34000F25E9 /* FooterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953682B304C34000F25E9 /* FooterViewCredits.swift */; };
 		7C79536F2B304C34000F25E9 /* CenterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953692B304C34000F25E9 /* CenterViewCredits.swift */; };
-		7C7953702B304C34000F25E9 /* CenterViewCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953692B304C34000F25E9 /* CenterViewCredits.swift */; };
 		7C7953712B304C34000F25E9 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79536A2B304C34000F25E9 /* CreditsView.swift */; };
-		7C7953722B304C34000F25E9 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79536A2B304C34000F25E9 /* CreditsView.swift */; };
 		7C7953812B307BB9000F25E9 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */; };
-		7C7953822B307BB9000F25E9 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */; };
+		7C9597852B4D66EE00DA41F6 /* DeleterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9597842B4D66EE00DA41F6 /* DeleterView.swift */; };
+		7C9597882B4D6A3100DA41F6 /* EmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9597872B4D6A3100DA41F6 /* EmitterView.swift */; };
+		7C95978B2B4D6BB900DA41F6 /* Particles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95978A2B4D6BB900DA41F6 /* Particles.swift */; };
+		7C95978E2B4D6C9900DA41F6 /* FillRandomiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95978D2B4D6C9900DA41F6 /* FillRandomiser.swift */; };
+		7C9597912B4D7B9D00DA41F6 /* HomeSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9597902B4D7B9D00DA41F6 /* HomeSecondView.swift */; };
+		7C9597932B4D7F9600DA41F6 /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9597922B4D7F9600DA41F6 /* Tick.swift */; };
 		7CA4ADD32B32B4FF00F9E512 /* HomeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADD22B32B4FF00F9E512 /* HomeInputView.swift */; };
-		7CA4ADD42B32B4FF00F9E512 /* HomeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADD22B32B4FF00F9E512 /* HomeInputView.swift */; };
 		7CA4ADDD2B32E75600F9E512 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDC2B32E75600F9E512 /* BackgroundImageView.swift */; };
-		7CA4ADDE2B32E75600F9E512 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDC2B32E75600F9E512 /* BackgroundImageView.swift */; };
 		7CA4ADE02B32E8C100F9E512 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */; };
-		7CA4ADE12B32E8C100F9E512 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */; };
 		7CA4ADE32B32F31A00F9E512 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE22B32F31A00F9E512 /* SettingsView.swift */; };
-		7CA4ADE42B32F31A00F9E512 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE22B32F31A00F9E512 /* SettingsView.swift */; };
 		7CA4ADE82B3319B100F9E512 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE72B3319B100F9E512 /* BebasNeue.otf */; };
-		7CA4ADE92B3319B100F9E512 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4ADE72B3319B100F9E512 /* BebasNeue.otf */; };
 		7CA6D6602B340CA100D2977E /* SettingListTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */; };
-		7CA6D6612B340CA100D2977E /* SettingListTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */; };
 		7CA6D6642B3421DC00D2977E /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6632B3421DC00D2977E /* DarkModeView.swift */; };
-		7CA6D6652B3421DC00D2977E /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6632B3421DC00D2977E /* DarkModeView.swift */; };
 		7CA6D6672B3422C300D2977E /* LineLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6662B3422C300D2977E /* LineLimitView.swift */; };
-		7CA6D6682B3422C300D2977E /* LineLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6662B3422C300D2977E /* LineLimitView.swift */; };
 		7CA6D66B2B342ECA00D2977E /* ChooseAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66A2B342ECA00D2977E /* ChooseAppearanceView.swift */; };
-		7CA6D66C2B342ECA00D2977E /* ChooseAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66A2B342ECA00D2977E /* ChooseAppearanceView.swift */; };
 		7CA6D66E2B342FB500D2977E /* DisplayTotalSceneCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66D2B342FB500D2977E /* DisplayTotalSceneCountView.swift */; };
-		7CA6D66F2B342FB500D2977E /* DisplayTotalSceneCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D66D2B342FB500D2977E /* DisplayTotalSceneCountView.swift */; };
 		7CA6D6712B34308D00D2977E /* ContactUSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6702B34308D00D2977E /* ContactUSView.swift */; };
-		7CA6D6722B34308D00D2977E /* ContactUSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6702B34308D00D2977E /* ContactUSView.swift */; };
 		7CA6D6742B3430F600D2977E /* TwitterAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6732B3430F600D2977E /* TwitterAccountView.swift */; };
-		7CA6D6752B3430F600D2977E /* TwitterAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6732B3430F600D2977E /* TwitterAccountView.swift */; };
 		7CA6D6772B3432BE00D2977E /* LinkedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6762B3432BE00D2977E /* LinkedInView.swift */; };
-		7CA6D6782B3432BE00D2977E /* LinkedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6762B3432BE00D2977E /* LinkedInView.swift */; };
 		7CA6D67A2B34333300D2977E /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6792B34333300D2977E /* HelpView.swift */; };
-		7CA6D67B2B34333300D2977E /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6792B34333300D2977E /* HelpView.swift */; };
 		7CA6D67D2B34339100D2977E /* VersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67C2B34339100D2977E /* VersionView.swift */; };
-		7CA6D67E2B34339100D2977E /* VersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67C2B34339100D2977E /* VersionView.swift */; };
 		7CA6D6802B3433F600D2977E /* SettingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67F2B3433F600D2977E /* SettingHeaderView.swift */; };
-		7CA6D6812B3433F600D2977E /* SettingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D67F2B3433F600D2977E /* SettingHeaderView.swift */; };
 		7CA6D6832B3437FC00D2977E /* SettingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6822B3437FC00D2977E /* SettingFooterView.swift */; };
-		7CA6D6842B3437FC00D2977E /* SettingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6822B3437FC00D2977E /* SettingFooterView.swift */; };
 		7CA6D6862B34408C00D2977E /* SelectDisplayCountSkinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6852B34408C00D2977E /* SelectDisplayCountSkinView.swift */; };
-		7CA6D6872B34408C00D2977E /* SelectDisplayCountSkinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6852B34408C00D2977E /* SelectDisplayCountSkinView.swift */; };
 		7CA6D6892B3440FB00D2977E /* SettingCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6882B3440FB00D2977E /* SettingCenterView.swift */; };
-		7CA6D68A2B3440FB00D2977E /* SettingCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6882B3440FB00D2977E /* SettingCenterView.swift */; };
 		7CA6D68D2B3445AC00D2977E /* GlobalClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D68C2B3445AC00D2977E /* GlobalClasses.swift */; };
-		7CA6D68E2B3445AC00D2977E /* GlobalClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D68C2B3445AC00D2977E /* GlobalClasses.swift */; };
 		7CA6D6902B345BC100D2977E /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D68F2B345BC100D2977E /* UserDefaults.swift */; };
-		7CA6D6912B345BC100D2977E /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D68F2B345BC100D2977E /* UserDefaults.swift */; };
 		7CA6D6932B345BF400D2977E /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6922B345BF400D2977E /* UserDefault+Extension.swift */; };
-		7CA6D6942B345BF400D2977E /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6922B345BF400D2977E /* UserDefault+Extension.swift */; };
 		7CA6D6962B346F2900D2977E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6952B346F2900D2977E /* String+Extension.swift */; };
-		7CA6D6972B346F2900D2977E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6D6952B346F2900D2977E /* String+Extension.swift */; };
 		7CB4E75F2B2C1D7700E49AF4 /* NotepadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */; };
 		7CB4E7632B2C1D7900E49AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */; };
 		7CB4E7662B2C1D7900E49AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7652B2C1D7900E49AF4 /* Preview Assets.xcassets */; };
-		7CB4E76C2B2C1D7900E49AF4 /* Notepad Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7CB4E7712B2C1D7900E49AF4 /* NotepadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7702B2C1D7900E49AF4 /* NotepadApp.swift */; };
-		7CB4E7752B2C1D7A00E49AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7742B2C1D7A00E49AF4 /* Assets.xcassets */; };
-		7CB4E7782B2C1D7A00E49AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4E7772B2C1D7A00E49AF4 /* Preview Assets.xcassets */; };
 		7CB4E78B2B2C207100E49AF4 /* NoteModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */; };
-		7CB4E78C2B2C207100E49AF4 /* NoteModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */; };
 		7CB4E78F2B2C20A800E49AF4 /* GEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */; };
-		7CB4E7902B2C20A800E49AF4 /* GEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */; };
 		7CB4E7932B2C215200E49AF4 /* NoDataFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7922B2C215200E49AF4 /* NoDataFoundView.swift */; };
-		7CB4E7942B2C215200E49AF4 /* NoDataFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7922B2C215200E49AF4 /* NoDataFoundView.swift */; };
 		7CB4E7992B2C239600E49AF4 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7982B2C239600E49AF4 /* Notes.swift */; };
-		7CB4E79A2B2C239600E49AF4 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E7982B2C239600E49AF4 /* Notes.swift */; };
 		7CB4E79C2B2C243A00E49AF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */; };
-		7CB4E79D2B2C243A00E49AF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79B2B2C243A00E49AF4 /* HomeView.swift */; };
 		7CB4E79F2B2C24F300E49AF4 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */; };
-		7CB4E7A02B2C24F300E49AF4 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4E79E2B2C24F300E49AF4 /* SessionDelegate.swift */; };
 		7CB676192B31D54900740DE8 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB676182B31D54900740DE8 /* CGFloat+Extension.swift */; };
-		7CB6761A2B31D59700740DE8 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB676182B31D54900740DE8 /* CGFloat+Extension.swift */; };
 		7CB6761C2B31DFD800740DE8 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6761B2B31DFD800740DE8 /* Colors+Extension.swift */; };
-		7CB6761D2B31E06B00740DE8 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6761B2B31DFD800740DE8 /* Colors+Extension.swift */; };
 		7CBE36DE2B3565930082819E /* HomeCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE36DD2B3565930082819E /* HomeCircleView.swift */; };
-		7CBE36DF2B3565930082819E /* HomeCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE36DD2B3565930082819E /* HomeCircleView.swift */; };
 		7CBE36E12B356E0B0082819E /* SkinsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE36E02B356E0B0082819E /* SkinsListView.swift */; };
-		7CBE36E22B356E0B0082819E /* SkinsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE36E02B356E0B0082819E /* SkinsListView.swift */; };
 		C789F8E820E4DC6BD5E5E433 /* Pods_Notepad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CE74E7592B66C742C65110 /* Pods_Notepad.framework */; };
-		E6F24304C78D627AF04596FF /* Pods_Notepad_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8102C70891DA65287D107 /* Pods_Notepad_Watch_App.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7CB4E76D2B2C1D7900E49AF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7CB4E7532B2C1D7700E49AF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7CB4E76A2B2C1D7900E49AF4;
-			remoteInfo = "Notepad Watch App";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		7CB4E77E2B2C1D7A00E49AF4 /* Embed Watch Content */ = {
@@ -119,7 +73,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				7CB4E76C2B2C1D7900E49AF4 /* Notepad Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +82,12 @@
 /* Begin PBXFileReference section */
 		15CE74E7592B66C742C65110 /* Pods_Notepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A64EAEFC05191072F62415 /* Pods-Notepad Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notepad Watch App.debug.xcconfig"; path = "Target Support Files/Pods-Notepad Watch App/Pods-Notepad Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1C394B2B4E6659004B6845 /* NotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
+		7C1C394D2B4E6E8A004B6845 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		7C2B27242B428AF5001D0B15 /* Notepad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notepad.entitlements; sourceTree = "<group>"; };
+		7C6E62DC2B4EC275004CB17C /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		7C6E62DE2B4EC2B9004CB17C /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		7C6E62E02B4EC2EB004CB17C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		7C79535A2B304BD0000F25E9 /* TaskDetailsFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsFooterView.swift; sourceTree = "<group>"; };
 		7C79535B2B304BD1000F25E9 /* TaskDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
 		7C79535C2B304BD1000F25E9 /* TaskDetailsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsHeaderView.swift; sourceTree = "<group>"; };
@@ -138,13 +97,18 @@
 		7C7953692B304C34000F25E9 /* CenterViewCredits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewCredits.swift; sourceTree = "<group>"; };
 		7C79536A2B304C34000F25E9 /* CreditsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		7C7953802B307BB9000F25E9 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		7C9597842B4D66EE00DA41F6 /* DeleterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleterView.swift; sourceTree = "<group>"; };
+		7C9597872B4D6A3100DA41F6 /* EmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterView.swift; sourceTree = "<group>"; };
+		7C95978A2B4D6BB900DA41F6 /* Particles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particles.swift; sourceTree = "<group>"; };
+		7C95978D2B4D6C9900DA41F6 /* FillRandomiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillRandomiser.swift; sourceTree = "<group>"; };
+		7C9597902B4D7B9D00DA41F6 /* HomeSecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSecondView.swift; sourceTree = "<group>"; };
+		7C9597922B4D7F9600DA41F6 /* Tick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
 		7CA4ADD22B32B4FF00F9E512 /* HomeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInputView.swift; sourceTree = "<group>"; };
 		7CA4ADDC2B32E75600F9E512 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		7CA4ADE22B32F31A00F9E512 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7CA4ADE72B3319B100F9E512 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
 		7CA4ADEA2B3319D300F9E512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		7CA4ADEB2B3319F200F9E512 /* Notepad-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Notepad-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingListTitleView.swift; sourceTree = "<group>"; };
 		7CA6D6632B3421DC00D2977E /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
 		7CA6D6662B3422C300D2977E /* LineLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLimitView.swift; sourceTree = "<group>"; };
@@ -167,10 +131,6 @@
 		7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadApp.swift; sourceTree = "<group>"; };
 		7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB4E7652B2C1D7900E49AF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notepad Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CB4E7702B2C1D7900E49AF4 /* NotepadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadApp.swift; sourceTree = "<group>"; };
-		7CB4E7742B2C1D7A00E49AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CB4E7772B2C1D7A00E49AF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModal.swift; sourceTree = "<group>"; };
 		7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEnum.swift; sourceTree = "<group>"; };
 		7CB4E7922B2C215200E49AF4 /* NoDataFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataFoundView.swift; sourceTree = "<group>"; };
@@ -193,14 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C789F8E820E4DC6BD5E5E433 /* Pods_Notepad.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CB4E7682B2C1D7900E49AF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6F24304C78D627AF04596FF /* Pods_Notepad_Watch_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +215,7 @@
 			children = (
 				7CB4E7982B2C239600E49AF4 /* Notes.swift */,
 				7CA6D68C2B3445AC00D2977E /* GlobalClasses.swift */,
+				7C1C394B2B4E6659004B6845 /* NotesManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -320,6 +273,11 @@
 				7CA6D65F2B340CA100D2977E /* SettingListTitleView.swift */,
 				7CA4ADDF2B32E8C100F9E512 /* SeparatorView.swift */,
 				7CBE36DD2B3565930082819E /* HomeCircleView.swift */,
+				7C9597842B4D66EE00DA41F6 /* DeleterView.swift */,
+				7C9597872B4D6A3100DA41F6 /* EmitterView.swift */,
+				7C9597922B4D7F9600DA41F6 /* Tick.swift */,
+				7C6E62DC2B4EC275004CB17C /* LineView.swift */,
+				7C6E62DE2B4EC2B9004CB17C /* BannerView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -329,7 +287,6 @@
 			children = (
 				7CB4E7822B2C1E4A00E49AF4 /* Shared */,
 				7CB4E75D2B2C1D7700E49AF4 /* Notepad */,
-				7CB4E76F2B2C1D7900E49AF4 /* Notepad Watch App */,
 				7CB4E75C2B2C1D7700E49AF4 /* Products */,
 				039078DE969B046D666BE531 /* Pods */,
 				A4FDF5E476A46ED104D42F25 /* Frameworks */,
@@ -340,7 +297,6 @@
 			isa = PBXGroup;
 			children = (
 				7CB4E75B2B2C1D7700E49AF4 /* Notepad.app */,
-				7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,6 +304,7 @@
 		7CB4E75D2B2C1D7700E49AF4 /* Notepad */ = {
 			isa = PBXGroup;
 			children = (
+				7C2B27242B428AF5001D0B15 /* Notepad.entitlements */,
 				7CA4ADEA2B3319D300F9E512 /* Info.plist */,
 				7CB4E75E2B2C1D7700E49AF4 /* NotepadApp.swift */,
 				7CB4E7622B2C1D7900E49AF4 /* Assets.xcassets */,
@@ -360,25 +317,6 @@
 			isa = PBXGroup;
 			children = (
 				7CB4E7652B2C1D7900E49AF4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7CB4E76F2B2C1D7900E49AF4 /* Notepad Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				7CA4ADEB2B3319F200F9E512 /* Notepad-Watch-App-Info.plist */,
-				7CB4E7702B2C1D7900E49AF4 /* NotepadApp.swift */,
-				7CB4E7742B2C1D7A00E49AF4 /* Assets.xcassets */,
-				7CB4E7762B2C1D7A00E49AF4 /* Preview Content */,
-			);
-			path = "Notepad Watch App";
-			sourceTree = "<group>";
-		};
-		7CB4E7762B2C1D7A00E49AF4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				7CB4E7772B2C1D7A00E49AF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -405,6 +343,8 @@
 				7C7953872B308090000F25E9 /* Global */,
 				7CA6D6622B3421B100D2977E /* Settings */,
 				7CA6D68B2B34421700D2977E /* Common */,
+				7C1C394D2B4E6E8A004B6845 /* TaskRowView.swift */,
+				7C9597902B4D7B9D00DA41F6 /* HomeSecondView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -413,6 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				7CB4E78A2B2C207100E49AF4 /* NoteModal.swift */,
+				7C95978A2B4D6BB900DA41F6 /* Particles.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -430,6 +371,7 @@
 			isa = PBXGroup;
 			children = (
 				7CB4E78E2B2C20A800E49AF4 /* GEnum.swift */,
+				7C95978D2B4D6C9900DA41F6 /* FillRandomiser.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -442,6 +384,7 @@
 				7CA6D68F2B345BC100D2977E /* UserDefaults.swift */,
 				7CA6D6922B345BF400D2977E /* UserDefault+Extension.swift */,
 				7CA6D6952B346F2900D2977E /* String+Extension.swift */,
+				7C6E62E02B4EC2EB004CB17C /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -471,31 +414,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				7CB4E76E2B2C1D7900E49AF4 /* PBXTargetDependency */,
 			);
 			name = Notepad;
 			packageProductDependencies = (
 			);
 			productName = Notepad;
 			productReference = 7CB4E75B2B2C1D7700E49AF4 /* Notepad.app */;
-			productType = "com.apple.product-type.application";
-		};
-		7CB4E76A2B2C1D7900E49AF4 /* Notepad Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7CB4E77B2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad Watch App" */;
-			buildPhases = (
-				2715E33D5C76CC4A2E6E2AC1 /* [CP] Check Pods Manifest.lock */,
-				7CB4E7672B2C1D7900E49AF4 /* Sources */,
-				7CB4E7682B2C1D7900E49AF4 /* Frameworks */,
-				7CB4E7692B2C1D7900E49AF4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Notepad Watch App";
-			productName = "Notepad Watch App";
-			productReference = 7CB4E76B2B2C1D7900E49AF4 /* Notepad Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -509,9 +433,6 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					7CB4E75A2B2C1D7700E49AF4 = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					7CB4E76A2B2C1D7900E49AF4 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -532,7 +453,6 @@
 			projectRoot = "";
 			targets = (
 				7CB4E75A2B2C1D7700E49AF4 /* Notepad */,
-				7CB4E76A2B2C1D7900E49AF4 /* Notepad Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -548,41 +468,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CB4E7692B2C1D7900E49AF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CB4E7782B2C1D7A00E49AF4 /* Preview Assets.xcassets in Resources */,
-				7CB4E7752B2C1D7A00E49AF4 /* Assets.xcassets in Resources */,
-				7CA4ADE92B3319B100F9E512 /* BebasNeue.otf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2715E33D5C76CC4A2E6E2AC1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Notepad Watch App-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B59883B56BB11B2B02939116 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,9 +500,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9597932B4D7F9600DA41F6 /* Tick.swift in Sources */,
 				7CA6D6772B3432BE00D2977E /* LinkedInView.swift in Sources */,
 				7CA4ADDD2B32E75600F9E512 /* BackgroundImageView.swift in Sources */,
 				7C79536B2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */,
+				7C6E62DD2B4EC275004CB17C /* LineView.swift in Sources */,
 				7CB4E79C2B2C243A00E49AF4 /* HomeView.swift in Sources */,
 				7C7953642B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */,
 				7CA6D67A2B34333300D2977E /* HelpView.swift in Sources */,
@@ -624,16 +514,25 @@
 				7CA6D6742B3430F600D2977E /* TwitterAccountView.swift in Sources */,
 				7CA6D68D2B3445AC00D2977E /* GlobalClasses.swift in Sources */,
 				7CA6D6672B3422C300D2977E /* LineLimitView.swift in Sources */,
+				7C95978E2B4D6C9900DA41F6 /* FillRandomiser.swift in Sources */,
 				7CB676192B31D54900740DE8 /* CGFloat+Extension.swift in Sources */,
 				7C7953622B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */,
 				7CA6D6712B34308D00D2977E /* ContactUSView.swift in Sources */,
 				7CA6D67D2B34339100D2977E /* VersionView.swift in Sources */,
 				7CA6D6802B3433F600D2977E /* SettingHeaderView.swift in Sources */,
 				7C79535E2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */,
+				7C1C394E2B4E6E8A004B6845 /* TaskRowView.swift in Sources */,
+				7C9597912B4D7B9D00DA41F6 /* HomeSecondView.swift in Sources */,
+				7C9597852B4D66EE00DA41F6 /* DeleterView.swift in Sources */,
+				7C6E62DF2B4EC2B9004CB17C /* BannerView.swift in Sources */,
 				7CBE36DE2B3565930082819E /* HomeCircleView.swift in Sources */,
 				7CB4E78B2B2C207100E49AF4 /* NoteModal.swift in Sources */,
+				7C1C394C2B4E6659004B6845 /* NotesManager.swift in Sources */,
+				7C9597882B4D6A3100DA41F6 /* EmitterView.swift in Sources */,
 				7CA4ADD32B32B4FF00F9E512 /* HomeInputView.swift in Sources */,
 				7CB4E78F2B2C20A800E49AF4 /* GEnum.swift in Sources */,
+				7C6E62E12B4EC2EB004CB17C /* UIView+Extension.swift in Sources */,
+				7C95978B2B4D6BB900DA41F6 /* Particles.swift in Sources */,
 				7C79536D2B304C34000F25E9 /* FooterViewCredits.swift in Sources */,
 				7CA6D6892B3440FB00D2977E /* SettingCenterView.swift in Sources */,
 				7CA4ADE32B32F31A00F9E512 /* SettingsView.swift in Sources */,
@@ -657,64 +556,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CB4E7672B2C1D7900E49AF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CA6D6782B3432BE00D2977E /* LinkedInView.swift in Sources */,
-				7C79536C2B304C34000F25E9 /* HeaderViewCredit.swift in Sources */,
-				7CB4E79D2B2C243A00E49AF4 /* HomeView.swift in Sources */,
-				7C7953652B304BD1000F25E9 /* TaskDetailsCenterView.swift in Sources */,
-				7CA4ADE12B32E8C100F9E512 /* SeparatorView.swift in Sources */,
-				7CA6D67B2B34333300D2977E /* HelpView.swift in Sources */,
-				7CB4E79A2B2C239600E49AF4 /* Notes.swift in Sources */,
-				7CB4E7942B2C215200E49AF4 /* NoDataFoundView.swift in Sources */,
-				7CA6D6972B346F2900D2977E /* String+Extension.swift in Sources */,
-				7CA6D6752B3430F600D2977E /* TwitterAccountView.swift in Sources */,
-				7CA6D68E2B3445AC00D2977E /* GlobalClasses.swift in Sources */,
-				7CA6D6682B3422C300D2977E /* LineLimitView.swift in Sources */,
-				7C7953632B304BD1000F25E9 /* TaskDetailsHeaderView.swift in Sources */,
-				7C79535F2B304BD1000F25E9 /* TaskDetailsFooterView.swift in Sources */,
-				7CA6D6722B34308D00D2977E /* ContactUSView.swift in Sources */,
-				7CA6D67E2B34339100D2977E /* VersionView.swift in Sources */,
-				7CA6D6812B3433F600D2977E /* SettingHeaderView.swift in Sources */,
-				7CA4ADE42B32F31A00F9E512 /* SettingsView.swift in Sources */,
-				7CBE36DF2B3565930082819E /* HomeCircleView.swift in Sources */,
-				7CB4E78C2B2C207100E49AF4 /* NoteModal.swift in Sources */,
-				7CA4ADDE2B32E75600F9E512 /* BackgroundImageView.swift in Sources */,
-				7CA6D6612B340CA100D2977E /* SettingListTitleView.swift in Sources */,
-				7CA4ADD42B32B4FF00F9E512 /* HomeInputView.swift in Sources */,
-				7CA6D68A2B3440FB00D2977E /* SettingCenterView.swift in Sources */,
-				7CB4E7902B2C20A800E49AF4 /* GEnum.swift in Sources */,
-				7CB6761D2B31E06B00740DE8 /* Colors+Extension.swift in Sources */,
-				7CA6D6842B3437FC00D2977E /* SettingFooterView.swift in Sources */,
-				7CBE36E22B356E0B0082819E /* SkinsListView.swift in Sources */,
-				7C79536E2B304C34000F25E9 /* FooterViewCredits.swift in Sources */,
-				7CB4E7712B2C1D7900E49AF4 /* NotepadApp.swift in Sources */,
-				7CA6D6872B34408C00D2977E /* SelectDisplayCountSkinView.swift in Sources */,
-				7C7953612B304BD1000F25E9 /* TaskDetailsView.swift in Sources */,
-				7CB4E7A02B2C24F300E49AF4 /* SessionDelegate.swift in Sources */,
-				7CB6761A2B31D59700740DE8 /* CGFloat+Extension.swift in Sources */,
-				7C7953822B307BB9000F25E9 /* HomeHeaderView.swift in Sources */,
-				7CA6D6912B345BC100D2977E /* UserDefaults.swift in Sources */,
-				7C7953722B304C34000F25E9 /* CreditsView.swift in Sources */,
-				7C7953702B304C34000F25E9 /* CenterViewCredits.swift in Sources */,
-				7CA6D66F2B342FB500D2977E /* DisplayTotalSceneCountView.swift in Sources */,
-				7CA6D6652B3421DC00D2977E /* DarkModeView.swift in Sources */,
-				7CA6D66C2B342ECA00D2977E /* ChooseAppearanceView.swift in Sources */,
-				7CA6D6942B345BF400D2977E /* UserDefault+Extension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7CB4E76E2B2C1D7900E49AF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7CB4E76A2B2C1D7900E49AF4 /* Notepad Watch App */;
-			targetProxy = 7CB4E76D2B2C1D7900E49AF4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7CB4E7792B2C1D7A00E49AF4 /* Debug */ = {
@@ -828,69 +670,6 @@
 			};
 			name = Release;
 		};
-		7CB4E77C2B2C1D7A00E49AF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70A64EAEFC05191072F62415 /* Pods-Notepad Watch App.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Notepad Watch App/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Notepad-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.demo.Notepad;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Debug;
-		};
-		7CB4E77D2B2C1D7A00E49AF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB98B89A3C0881302770366 /* Pods-Notepad Watch App.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Notepad Watch App/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Notepad-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Notepad;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.demo.Notepad;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Release;
-		};
 		7CB4E7802B2C1D7A00E49AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7FB1F98D48F040E8761BF3F2 /* Pods-Notepad.debug.xcconfig */;
@@ -898,9 +677,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Notepad/Notepad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Notepad/Preview Content\"";
+				DEVELOPMENT_TEAM = U33JZ8S8DG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Notepad/Info.plist;
@@ -908,20 +689,23 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Notepad.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -932,9 +716,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Notepad/Notepad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Notepad/Preview Content\"";
+				DEVELOPMENT_TEAM = U33JZ8S8DG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Notepad/Info.plist;
@@ -942,20 +728,23 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Notepad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Notepad.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -968,15 +757,6 @@
 			buildConfigurations = (
 				7CB4E7792B2C1D7A00E49AF4 /* Debug */,
 				7CB4E77A2B2C1D7A00E49AF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7CB4E77B2B2C1D7A00E49AF4 /* Build configuration list for PBXNativeTarget "Notepad Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7CB4E77C2B2C1D7A00E49AF4 /* Debug */,
-				7CB4E77D2B2C1D7A00E49AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

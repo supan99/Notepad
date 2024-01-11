@@ -63,9 +63,9 @@ struct HomeView: View {
     var centerView: some View {
         VStack(alignment: .leading) {
             if (isAdded){
-                HomeInputView(txtNotes: $txtNotes, editIndex: editIndex) {
-                    self.addAction()
-                }
+//                HomeInputView(txtNotes: $txtNotes, editIndex: editIndex) {
+//                    self.addAction()
+//                }
             } else {
                 if (todo.notesList.count > 0) {
                     listView
