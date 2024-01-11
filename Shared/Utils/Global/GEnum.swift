@@ -68,6 +68,7 @@ enum Skins {
     case whiteBGPrimaryFontPrimaryStroke
     
     var skinStyle : SkinStyle {
+        @EnvironmentObject var global: Global
         switch self {
         case .whiteBGBlackFontBlackStroke:
             return SkinStyle(backgroundColor: ColorConst.white, textColor: ColorConst.titleBlack, strokeColor: ColorConst.titleBlack)

@@ -20,7 +20,7 @@ struct NotesListView: View {
             VStack(spacing: 0) {
                 ForEach(Array(notesManager.notes.enumerated()), id: \.offset) { index, notes in
                     TaskRowView(note: notes, index: index + 1)
-                        .padding(.horizontal, 20)
+                        .padding(.horizontal, 10)
                         .environmentObject(notesManager)
                 }
             }
